@@ -58,7 +58,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="9F3FA8A5-DD18-E124-5505-C15B5C50D22C" otype="Note" vid="E9672BBF-D72D-02F5-7775-BEB13D2E093A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="47" y="56" width="95" height="40"/>
+<bounds x="47" y="56" width="137" height="43"/>
 <comment>This is a Test of the Git functionality.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C536136A-9CEB-0697-C121-2514604AD4CE" otype="Entity" vid="E86D6B62-35C2-BEE9-0008-3DAE2431C2CA">
