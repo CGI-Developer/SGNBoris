@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B36F568-94A6-9380-98BC-A789E7D39081" name="PAYROLL PERSONAL PAYMENT METHODS">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>2332BD03-3AA2-F000-4F04-3F0897885023</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSONAL PAYMENT METHOD ID" id="4132B03E-F2EA-319B-8063-89EB6BF5ACD7">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>02A651F3-CBA6-C7D5-9741-4BB8F2B55F3F</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE START DATE" id="755FEFB3-FC3B-94DC-9D9D-B5FCE88C06E1">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>C97556C3-6423-A707-6ABB-A079BA05FF74</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE END DATE" id="84803E42-536B-5B35-FB7F-D61B007A87CE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>24F8F00B-9D78-DD68-37F5-8DAE00337453</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERSON ID" id="BB67BBBA-6901-CA58-AADE-719451A52E02">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-07 14:20:59 UTC</createdTime>
+<generatorID>5F4D0A15-1D93-DE83-8A22-AA4DCCCE25F6</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASSIGNMENT ID" id="84D54B86-7986-FC6E-D83D-E5C34B1D29AF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:00:22 UTC</createdTime>
+<generatorID>9E1FEC42-ED7E-CC45-932D-E81767B01020</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>2D381D17-9A35-838E-97E1-818DEDD59CF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYEE ID" id="AC5B7E2D-5EAF-5C2E-E21F-3B7D48E7C21F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>39F6F869-06A8-7D87-6306-10125A64A025</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYEE TYPE" id="D9A7B467-6ECC-2945-1A4D-F569E35FE264">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>3F5C46E0-BD23-5E00-B6A2-BD7A3211BC06</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<constraintName>PAY_PPM_PAYEE_TYPE_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;O&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXTERNAL ACCOUNT ID" id="1CCD4C62-96A5-B8AA-7687-2F0102B26D63">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>4F15E24D-C4BD-1855-C094-F13FEE173157</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORG PAYMENT METHOD ID" id="BE4E57EB-C28D-117F-DBAF-F7F9A260B762">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>C660AD06-BCB1-2AE1-7B36-75CB8F750649</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMOUNT" id="9F54AFC6-4DAF-08F0-6165-34371BB3B763">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>85C8D047-C0E9-AE43-DA17-62BE133F141E</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERCENTAGE" id="E0FB14FA-7293-84FC-D0A1-BD02CF332103">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>845DCDBE-7731-DAA8-F138-80C592A0E6AB</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>23</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,23,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRIORITY" id="7FB6175E-4ABA-5328-FD15-5546D49EB5EA">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>2482C652-0133-A751-83AC-6642FCBF14F2</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTIVE FLEXFIELDS" id="DE782AA6-63B7-1955-0869-3C1EF5E8BD6A">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>0DD60AE3-54C6-D2BE-CFB9-178847E49F27</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT FIELDS" id="8B664DE9-A274-B35E-5332-D30B65B263D0">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>86D5011D-148C-AF84-B8EE-77AA8554E4D6</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAEC4047-CDB9-B3C6-1624-D4C4FF15D68E" name="PAY PERSONAL PAYMENT METHO PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>17C8F4F1-DC48-9FF3-8407-C81EA64C9096</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4132B03E-F2EA-319B-8063-89EB6BF5ACD7</attributeRef>
+<attributeRef>755FEFB3-FC3B-94DC-9D9D-B5FCE88C06E1</attributeRef>
+<attributeRef>84803E42-536B-5B35-FB7F-D61B007A87CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

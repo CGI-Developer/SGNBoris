@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08C4DDF8-96B7-4229-DB4E-A0E83E3E80EC" name="PERSON PHONE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>8DE16D94-935D-9EDF-DE86-FE8823F07E17</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PHONE ID" id="0DEE9A9C-0912-6081-9465-0698782EE176">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>785866B7-6B64-0476-9555-6D87413849C7</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE FROM" id="7D4C0510-ECCE-2ABB-2B38-5F23E8521DAB">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>7754D9EB-FA25-7E0B-8D89-878CA7E572EE</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE TO" id="A9633A09-03D7-C28A-EE46-94B494552944">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>F59E4B9D-E628-6517-A482-0A29E7C7B110</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE TYPE" id="C2F58E1F-345D-FCDA-DDB6-9C4B9577EC27">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>80BD1DED-8200-53D5-3D0C-6E85EBAA25D3</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE NUMBER" id="29B7F882-C6C0-9A4B-DA8E-4E1212E8C9EA">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>20C2AD77-DCE3-5EC9-0692-8311711A35D2</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARENT ID" id="1532C47F-B7F4-837D-4207-DDA258E7928E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>7611FE37-2480-5A62-76D3-DE9CE105CC93</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARENT TABLE" id="F442732D-9EF6-6D49-4F30-885D319245B8">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>7052C27E-3066-1330-3A67-297669BDEA54</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTY ID" id="40596917-2728-161D-38F5-D02B649DF767">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>91A80B2F-CC89-FCB1-A7F7-965EDA0ACF3A</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTIVE FLEXFIELDS" id="10508037-396F-7E8F-EFC8-B007850E3BA5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>B380BFBC-59FB-2EFE-C6C2-C4BE89C8C35A</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT FIELDS" id="A08F250D-32BF-12B5-CF2D-420F115AD6B9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>2B279545-948D-B4CF-4B5F-04515C7E43D2</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="483BE49A-D4AA-01F3-F5B9-BCE8B685A43C" name="PER PHONES PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>1343A9C1-24DD-3F58-9D15-37B86045A588</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DEE9A9C-0912-6081-9465-0698782EE176</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

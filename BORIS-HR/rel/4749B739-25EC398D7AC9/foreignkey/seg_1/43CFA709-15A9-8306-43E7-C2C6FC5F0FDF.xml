@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="43CFA709-15A9-8306-43E7-C2C6FC5F0FDF" containerWithKeyObject="0B24C350-1578-4373-9FD9-DAE38A0DE9DA" localFKIndex="D8EB48FF-F99F-1A82-3C13-6ECF89FEF5DB" name="HR_ASSIGNMENT_SET_AMENDMEN_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>HR_ASSIGNMENT_SET_AMENDMEN_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-08 22:52:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>2C3BCC3E-F90A-CA3B-147C-4DB60DCFAF6D</importedID>
+<referredTableLongName>HR.HR_ASSIGNMENT_SETS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9C8E4A9-B475-5E8D-9EF2-5A073D5EEC46</referredTableID>
+<keyObject>473FCBD4-C7D9-621B-BC7C-7633DFBDA3B6</keyObject>
+<referredKeyID>473FCBD4-C7D9-621B-BC7C-7633DFBDA3B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ASSIGNMENT_SET_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

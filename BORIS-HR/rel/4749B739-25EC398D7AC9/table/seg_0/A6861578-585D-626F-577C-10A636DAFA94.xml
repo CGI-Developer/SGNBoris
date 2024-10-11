@@ -1,0 +1,1115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6861578-585D-626F-577C-10A636DAFA94" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>138296CF-FE45-38A0-8C2F-F7C671A58301</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAY_BASIS_ID" id="0EDAF075-F754-2073-669F-3FF08A3FFDBE">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>PAY_BASIS_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C2CD550E-9D6B-D355-00F6-F7F3F47D7167</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INPUT_VALUE_ID" id="2B09AB6A-FD34-0694-4046-F1F4FC738BFD">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INPUT_VALUE_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>3C739FED-44DA-05D8-0AB6-23997967E2D9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_ID" id="E0AAC4C0-FB88-0208-57F8-27C860842A72">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>RATE_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>62FF2701-410B-3207-BB04-CF0D4D218A10</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_GROUP_ID" id="0B274362-868E-2667-DFEE-D949C0BB0FA2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>BUSINESS_GROUP_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>BAED0C75-5942-EC1A-3A0F-43263876122C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="333624D0-DC11-85BB-23BD-AD0DA6BC50D1" referredColumn="BBE870DF-07D1-8C94-7327-916F92DBA324"/>
+</associations>
+</Column>
+<Column name="NAME" id="C84A3697-1A9F-B7DE-D37E-8A6E2B556DF3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>09DA81D9-DEC0-1486-9139-A6890F5D471E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAY_BASIS" id="866695C2-51B6-1646-2DD1-ACD39832E0A2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>PAY_BASIS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>357D39AD-A288-C40E-731D-B959B42ECA1F</importedID>
+<constraintName>PER_PAYBAS_PAY_BASIS_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ANNUAL&apos;" description=""/>
+<valueDef value="&apos;HOURLY&apos;" description=""/>
+<valueDef value="&apos;MONTHLY&apos;" description=""/>
+<valueDef value="&apos;PERIOD&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RATE_BASIS" id="F64CC458-C3E3-8068-DFF1-E76A80DB2AF0">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>RATE_BASIS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C9539E9E-E7ED-0B7B-17B3-3A4FA7E7761A</importedID>
+<constraintName>PER_PAYBAS_RATE_BASIS_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;ANNUAL&apos;" description=""/>
+<valueDef value="&apos;HOURLY&apos;" description=""/>
+<valueDef value="&apos;MONTHLY&apos;" description=""/>
+<valueDef value="&apos;PERIOD&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANNUALIZED_HOURS" id="FDFE2FD8-CB53-8D4A-590A-7F2FDE0BE328">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ANNUALIZED_HOURS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>753D7A8E-9CF5-0B30-C00A-F2596EFD607A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAY_ANNUALIZATION_FACTOR" id="D351CB7C-DFB6-1257-3DD5-4B8A2CE567DF">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>PAY_ANNUALIZATION_FACTOR</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>D8F768AA-6FFF-26E1-D2CD-1B5DCD297CEE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADE_ANNUALIZATION_FACTOR" id="524933E1-97ED-BE04-8C60-73D306F83B13">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>GRADE_ANNUALIZATION_FACTOR</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>75F95F93-ABEA-FD81-E364-CD76B5409896</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE_CATEGORY" id="DB069F96-267E-7BC5-DE0F-D77F99321E66">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE_CATEGORY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>BFC1D8A7-9660-C233-E9FE-DD6047BBDF85</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE1" id="229D52DC-BA64-9DEA-C2A3-32AF618F7217">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>BA17D54C-B4EB-EA3D-2A97-946A25681443</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE2" id="021961AB-6860-F30A-9874-253A62B6FDD3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>EAF95D77-9985-F623-E297-98C932FC57B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE3" id="66E9B175-3E94-82E4-74D8-1F703F23C650">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>8A98D49F-1C4F-13BD-28B4-B4F487D0CC50</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE4" id="B430A335-DD43-35FA-1921-281401389FE9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE4</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>298B2E5E-C2F1-76C1-3A3F-53A545C21308</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE5" id="5EA57BBE-5AB3-5189-20B8-40CCE31460F1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE5</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>856D75A6-71BB-6C76-F107-08710FBC41F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE6" id="798DA7EE-984E-BC99-4DA8-73F3DF8BDDF2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE6</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>A219840F-D247-DCD4-AF51-1B983698AD99</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE7" id="3C6C8CF4-3DF5-3238-0523-3F53A170A4CD">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE7</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>F65DD870-9BCB-9D2D-9D50-E95EC5CB4B9C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE8" id="28141C07-21BE-010B-1EF7-1EA741AE491A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE8</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>40407037-B6A6-453E-05B2-F5035579E1CF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE9" id="99CFC7B8-0E4B-C406-E583-D4020858CDB5">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE9</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>84A6D2F6-17A6-85A6-0C73-BCB7154CFAA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE10" id="D2C6EE5D-8867-0B36-8AA6-28AD9A95E3AD">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE10</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>E7DD2BDC-5A7D-1FEB-4511-CEA589DD8F9F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE11" id="00BDC293-04D0-20E5-6D14-A14A8C268B9E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE11</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>5B2D445F-D463-1497-EBA5-CB1F93AC8FCD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE12" id="A106C86A-C404-8F5E-281D-B2F06932CFBA">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE12</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6D27972C-45BA-D7D4-F8CE-D8F0702FE7BE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE13" id="55AD771A-4BC1-AF46-8382-4CC117E3A177">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE13</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>909A6016-9DD1-6BDE-4542-0B0E5F9A820A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE14" id="0053B85A-8E76-DF62-C1A8-660965445B28">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE14</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>0B2AA591-4189-D38E-7F4C-8EF73D4445B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE15" id="48CF742D-15F9-0A5B-0E0D-A00F120E057A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE15</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>5FDA5F28-9C8F-0A1A-2343-849B10C093C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE16" id="67DD784B-A75D-EFCE-5F73-8EE60DB94D88">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>CE3195E7-13AA-AD65-470C-FABFC2EEF219</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE17" id="16F987B9-1C58-3513-DBAC-0AF2AECB1C74">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE17</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>123337F8-A3DC-3043-D9D4-2395368F1B6A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE18" id="24C57E5A-C26C-5C28-CDAA-8DEF1AEEADA3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE18</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>E5678D91-4883-341E-687D-68A30C81AD6C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE19" id="1F2C17BC-19D3-CBF1-5AEE-AEAD71FA9C00">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE19</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>D96AA794-D8E1-B85D-AE3F-7F2084706149</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE20" id="DEEC4BDB-C7DD-9CBC-9BA3-A6EFB5F5B6F2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE20</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>071A849F-2904-28A7-4035-7E00E6E4C2EF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="CF37937C-386D-6A3B-8DD0-C6779024752C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>689CD154-BD5D-E538-94D6-5650AA6D9FC5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="AA56FE41-680F-0A0F-ACAC-E2B78A32114A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>LAST_UPDATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>8314FF73-F672-C415-5957-82099428C5C4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_LOGIN" id="8C7AB59E-E15B-0F4B-B313-8F4622B3CA17">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_LOGIN</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>DD336AA2-6FA7-029B-6FEA-F8455AEE908D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="A409BED3-85B5-56B6-B470-95D32560D16F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>33508347-88F3-CC39-E12C-E30C5C1D123F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="68B99335-C5D5-8473-E239-53986392BCE6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>5245A27B-EBFE-1392-A5A5-DC3158D97A68</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION_CATEGORY" id="6D871A4C-BFC8-E042-B7B1-3E2D6D920B7B">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION_CATEGORY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>1A8F485E-6F77-A898-5E0D-6772137FA807</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION1" id="C0FEC2DF-3BA1-1B13-2BF7-67D1651EADD9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>9F574391-3848-590C-0670-F3B2104E4B4A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION2" id="594F332C-04F1-6F1C-594A-3488512E2FF7">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>DA9579F2-4151-6528-D8EE-A3ECCCF48312</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION3" id="8EC60CA8-7847-26F3-B557-4814836D48CB">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>ADE8A3FE-D34E-57CB-2520-0B3FB2520191</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION4" id="BC9C99F0-428A-636E-ADEA-E677BCF5AB5B">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION4</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>1B9FCAEB-0890-9404-FAE5-6F5C99455D9C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION5" id="26777301-117E-5DEC-1936-4E2C76180DEA">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION5</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>8CA9DA90-B444-C6A5-1510-5CAC726F367D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION6" id="D7C242F7-B578-2A39-6C37-7BFBABC81953">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION6</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7B800D26-8D08-6335-7041-A182DEFB1E0D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION7" id="D628C49E-E147-8600-B37A-CE14732CC911">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION7</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>AFABBF71-DDE0-62E7-99CB-9E794DF79D08</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION8" id="C4046CF5-0122-8AA4-B0CC-23EF97936A09">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION8</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>4DBFFF8D-8882-623D-2AAB-B1242B4157A2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION9" id="19A7F5E7-A936-3B2E-F751-767BCC79926E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION9</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>421D50D7-EDA4-B616-DD33-2255E4CFAFC3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION10" id="4AD7FCD8-27BB-F51B-BA22-630E7B26671F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION10</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>F85EB80D-C0F3-B0D7-6857-3990F720D5D3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION11" id="1767436F-977C-3D75-57C5-BAF11CD6102F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION11</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>62EF8F9A-0183-B30F-2AE7-9C4D01EF708E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION12" id="6B94F0C6-1C2C-E08B-14F9-EAD054F0A920">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION12</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>148823B2-4C03-8DE2-8F6D-DAB5285EDBD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION13" id="C076E52B-CAF8-5BAF-7041-6F750F86CDC2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION13</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7CBA3E2D-1112-997C-B3D0-44CF854F0FDF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION14" id="9D2AE2F8-8743-0ED5-A34F-3F7EECCA2BFF">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION14</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>816F77DA-71FF-3864-B333-18327963C5E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION15" id="D2B62ED9-7BCD-9939-317A-1BF7D8CDD8F9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION15</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>F3B495F3-12AC-5B34-D7FF-F81F635A5540</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION16" id="3D5118EB-E317-833D-DD36-ACFF51F44E27">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>275F72D0-FC3F-46D6-0D5C-8446BAC7BAE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION17" id="AC40C011-C48E-9260-6DEA-A81066EEB0CB">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION17</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>9E01C4C2-F4AB-8C53-BF0A-B06E0A99FADB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION18" id="8641509A-984A-89C4-3198-B4B0555ADAE5">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION18</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6223839D-B124-3304-0BE0-4C6251367FB7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION19" id="C5ADC526-EDEA-AFC4-DD68-3DE707299ECE">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION19</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>A5507E06-1640-482A-5BB3-A3787031C61B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMATION20" id="9BF6D8D5-8849-A271-CCF8-7BFC3A0DD708">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>INFORMATION20</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>F2B02C98-EFA5-51C0-5B56-AA73BA3F8DC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_NUMBER" id="5D64CAF0-2383-72B5-AAEC-7A68593E059E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>OBJECT_VERSION_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>D8414F60-50CD-E941-65A9-61A860154ED6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="E25D9600-5DBA-A712-9D5B-D6598E6116A8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PAY_BASES</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>406153D9-2545-852E-8BC4-3F1916B5EC13</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1219CCF8-1646-E639-D4E1-046B757FAA81" name="PER_PAY_BASES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>4CF61772-B14F-611B-56E6-850D77CEFB2E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDAF075-F754-2073-669F-3FF08A3FFDBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ACAE936-F4F7-9A04-1E00-0A705EDEEE65" name="PER_PAY_BASES_UK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_UK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>ADF147A4-9DFA-92B6-96B0-DD766C5E19DF</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C84A3697-1A9F-B7DE-D37E-8A6E2B556DF3"/>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77ABA579-D2BB-5DEC-048D-0C3725C66C46" name="PER_PAY_BASES_UK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_UK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>792D7E43-76B5-671C-194F-3638C094A2B9</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B09AB6A-FD34-0694-4046-F1F4FC738BFD"/>
+<colUsage columnID="E0AAC4C0-FB88-0208-57F8-27C860842A72"/>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F96FC1F-F23C-90E4-E7EA-1E4DF11D4471" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>1122F057-031F-E3E4-8CE1-FCA8A618C973</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AAC4C0-FB88-0208-57F8-27C860842A72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8DA6E40-7EBE-C9BC-ABDE-2FA1D43F8734" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES_FK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_FK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>43483BD1-301C-50CD-A6B3-AB16DF9922F6</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9DF0C80-287D-B26F-8718-A17FA7B8DC82" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>96CC7EEC-0587-2754-24F3-272189A99A2C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDAF075-F754-2073-669F-3FF08A3FFDBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA02F01D-BF3C-7B83-3549-AE8798EAF98E" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES_UK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_UK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>575A4E13-D0A7-1EC1-3759-95F84D4F78B0</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C84A3697-1A9F-B7DE-D37E-8A6E2B556DF3"/>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A43BD59D-7CBF-F1B8-D18F-579B4E03334A" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PAY_BASES_UK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_BASES_UK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>07FBA659-C016-6DB0-AC04-29BADEE1C423</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B09AB6A-FD34-0694-4046-F1F4FC738BFD"/>
+<colUsage columnID="E0AAC4C0-FB88-0208-57F8-27C860842A72"/>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66410487-C2E4-ACE3-1FFA-BDA8915DD099" name="PER_PAY_BASES_FK2">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AAC4C0-FB88-0208-57F8-27C860842A72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D790126-0506-092E-D664-DAFF364E4732" name="PER_PAY_BASES_FK3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B274362-868E-2667-DFEE-D949C0BB0FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

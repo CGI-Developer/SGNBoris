@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="0D275FA8-3CFC-DBF8-4567-733C91BBEF53" containerWithKeyObject="12879F09-D88A-9D48-03A8-101669684AD9" localFKIndex="9A231D88-859E-E972-B6E7-F751A0106D4F" name="PER_COMPETENCES_FK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_COMPETENCES_FK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:18 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>F2F26ACE-3ED2-77E1-CEBB-B6E46EBECBB0</importedID>
+<referredTableLongName>HR.PER_COMPETENCE_DEFINITIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C472891-27E2-4320-EFE6-539A474854AB</referredTableID>
+<keyObject>542A8082-8603-5366-6935-94DEBA593C1A</keyObject>
+<referredKeyID>542A8082-8603-5366-6935-94DEBA593C1A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COMPETENCE_DEFINITION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

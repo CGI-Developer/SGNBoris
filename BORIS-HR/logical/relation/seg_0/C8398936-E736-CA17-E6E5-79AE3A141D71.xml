@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="C8398936-E736-CA17-E6E5-79AE3A141D71">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-07 14:18:13 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>8BC15727-0FD7-5C24-4E08-0D5E2456A540</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76B539C2-3587-2A9D-F581-337C68E46A6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B358FF2-1321-8B16-353A-9B96CD8B278F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

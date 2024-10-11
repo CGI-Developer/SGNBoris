@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E498C843-ADED-3560-8C8D-1E8C5670FAF4" containerWithKeyObject="86370B02-0805-45DD-939F-1236089DABF1" localFKIndex="71BD91B9-BF47-6754-F080-7B59545C95E2" name="PER_PAY_PROPOSAL_COMPONENT_FK1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_PROPOSAL_COMPONENT_FK1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:19 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C727D6C1-9578-F928-3C30-C9E71D678EA5</importedID>
+<referredTableLongName>HR.PER_PAY_PROPOSALS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDCC853C-C4A5-E67B-5413-E2549AD68B90</referredTableID>
+<keyObject>BFFB9D90-3D91-2EA4-53B3-9C7DBBE2FD5A</keyObject>
+<referredKeyID>BFFB9D90-3D91-2EA4-53B3-9C7DBBE2FD5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PAY_PROPOSAL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

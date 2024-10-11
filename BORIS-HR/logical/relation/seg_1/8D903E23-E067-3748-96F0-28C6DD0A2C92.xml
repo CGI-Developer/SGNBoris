@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HR_ALL_POSITIONS_F_FK9" directorySegmentName="seg_1" id="8D903E23-E067-3748-96F0-28C6DD0A2C92">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>F4650323-0335-3A70-9263-33D6D1CC9EE4</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>6389D808-16BC-0659-2B67-19390028495F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8461E094-7CAC-2261-6D4E-F4C13A4D4417</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D4CA9F0-BA4C-2642-42F7-9A774DDA2B56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

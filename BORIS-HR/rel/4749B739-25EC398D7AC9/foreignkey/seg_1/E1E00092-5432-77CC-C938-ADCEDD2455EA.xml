@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="E1E00092-5432-77CC-C938-ADCEDD2455EA" containerWithKeyObject="36F95F55-D57C-9E3C-4D1B-2668DF775776" localFKIndex="48D11B4B-FF46-809C-E85C-7D232DFB9B77" name="PER_GRADE_SPINES_F_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_GRADE_SPINES_F_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:18 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>39C98B16-2CAE-BDAA-4A84-9F8559D7E7A3</importedID>
+<referredTableLongName>HR.PER_PARENT_SPINES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>890A0D12-905D-0F4D-4C79-901AC9EFF78C</referredTableID>
+<keyObject>F5CD1438-2C79-1574-2997-32C265EE2307</keyObject>
+<referredKeyID>F5CD1438-2C79-1574-2997-32C265EE2307</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PARENT_SPINE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

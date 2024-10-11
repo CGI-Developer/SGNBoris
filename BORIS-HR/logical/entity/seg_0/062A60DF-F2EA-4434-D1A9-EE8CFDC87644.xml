@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="062A60DF-F2EA-4434-D1A9-EE8CFDC87644" name="GRADE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>E6E451F7-75F6-0C65-87DA-1D6AD801F357</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GRADE ID" id="F0659D62-F701-B335-690D-3B1C6C4F99CF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>4B30CDF1-6C8E-48CC-CA96-ED9D9CE39545</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRADE DEFINITION ID" id="A69D2317-21D0-5407-0AB8-01238D28DEED">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 22:55:25 UTC</createdTime>
+<generatorID>879175CA-B17A-EF64-7355-A7988D9A12A8</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>B2EB712F-0358-12B6-176B-9453579454D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="985D6FE7-919A-8D28-CECE-24A3C7672A24">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>16627921-312C-BBB5-755F-E669AF87A9EE</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHORT NAME" id="CB8A926A-C2F3-0E6E-ED9F-62495F35C984">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>8A7773BA-A3A5-B0A3-E7E8-CE9F6490B728</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE FROM" id="B8251D79-2DEF-0CB0-5D2A-3CB6F3E96196">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>36590050-62B8-00AA-6BD7-3797C605D4A4</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEQUENCE" id="B8A8C16B-6F41-6339-81AC-CB8D75146FEB">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>C74CD0B2-343C-CE6F-BB02-0AE41E5914D9</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTIVE FLEXFIELDS " id="2177BE47-FACF-03D0-5035-9434930D1D44">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>3E444B54-5000-4A27-11BA-481127F5082F</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT FIELDS" id="4FA93551-3A3E-0A9F-AAF9-DB4F71696BFD">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>4E10CC7E-2C9D-EB8E-0EC5-02CE0081E312</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF27A3B8-04BD-270B-5978-D589434D93CB" name="PER GRADES PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>B8CD84FE-9988-8E25-873E-47EDE81D7636</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0659D62-F701-B335-690D-3B1C6C4F99CF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5FB01F52-0A72-F186-36BD-B75C69368430" name="PER GRADES UK2">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 13:02:51 UTC</createdTime>
+<generatorID>6AC289E2-FA86-7DA6-356A-58A3E3AE5210</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>985D6FE7-919A-8D28-CECE-24A3C7672A24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

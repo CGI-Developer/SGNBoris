@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_ABSENCE_ATTENDANCES_FK4" directorySegmentName="seg_0" id="15AC94CC-C1B5-D607-3061-01D06B7280ED">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<generatorID>6C350840-82D0-AFC1-F2FF-3A86A54DD046</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<targetPk>E343D56A-B6C2-1944-6930-41BF59F1CBD7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C05B839B-467D-F591-E004-0979F6D75853</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C05B839B-467D-F591-E004-0979F6D75853</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

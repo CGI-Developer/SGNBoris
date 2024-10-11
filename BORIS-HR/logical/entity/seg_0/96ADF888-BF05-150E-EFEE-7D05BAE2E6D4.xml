@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96ADF888-BF05-150E-EFEE-7D05BAE2E6D4" name="PAYROLL VERSION">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 14:44:10 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAYROLL ID" id="15881130-CB6D-071D-5FDE-A731C223597D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 14:46:20 UTC</createdTime>
+<generatorID>2860D76F-7204-63DC-1689-D50DCCD731FF</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>8B8A9558-B31E-E408-0548-62427EDBABBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE START DATE" id="0CEED5C0-AEBC-EF1D-D288-1E07ECA089CC">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 14:45:30 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE END DATE" id="A8ADCBCF-698A-B62C-0246-6AD0C8B80F63">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 14:45:48 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D4E2CC8-7031-C6B8-E5B3-082CAE8B6FCF" name="PAYROLL VERSION PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-19 14:46:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15881130-CB6D-071D-5FDE-A731C223597D</attributeRef>
+<attributeRef>0CEED5C0-AEBC-EF1D-D288-1E07ECA089CC</attributeRef>
+<attributeRef>A8ADCBCF-698A-B62C-0246-6AD0C8B80F63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

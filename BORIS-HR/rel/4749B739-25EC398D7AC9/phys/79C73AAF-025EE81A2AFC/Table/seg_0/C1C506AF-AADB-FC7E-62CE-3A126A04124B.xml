@@ -1,0 +1,750 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PER_COMPETENCE_ELEMENTS" directorySegmentName="seg_0" id="C1C506AF-AADB-FC7E-62CE-3A126A04124B">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:09 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C9A8C0AB-179F-4E50-1A2B-4134A82A0F11</segment>
+<tableSpace>A259311E-A01D-25F0-FFAD-F7D6D4B0EAC7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ATTRIBUTE19" id="0072E37C-E5F9-9D87-6560-B93FECF3801F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION_CATEGORY" id="0463B806-804F-A67F-DCEA-88630E50E8B3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION4" id="0660954E-CDDE-5F1B-4CF5-FEDCB0F1FBEB">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NEXT_CERTIFICATION_DATE" id="09E3D76A-E7F2-AAEE-13DE-C782BD3B3102">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="0CE55ADB-D339-7337-F6F9-85D096C6FD83">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="0F3C0843-CBD4-955F-0FF6-0CCC4AE8ACD5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION12" id="114A81EF-9DB8-ACA2-D146-A0D3792B78F3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASSESSMENT_ID" id="12CE6837-337A-D49F-B33C-59633F86B0E5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NORMAL_ELAPSE_DURATION" id="1569DFA2-05B1-13DA-4E40-9ECFECDC31E6">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION13" id="1655A263-F85E-6EBD-78A7-D61F93DE27BE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NORMAL_ELAPSE_DURATION_UNIT" id="16A3069F-1F09-CC96-65C9-55C3FD756F07">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="16B25FAF-CF23-8F37-95E9-0E6869ACD67D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE10" id="1B591255-EE01-FD16-3F2A-3E5210EA0F74">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE11" id="1FC960C0-FE56-1157-E70D-6AF5A0F2171F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION17" id="230B1319-A217-0C96-50AA-319E1209905B">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUALIFICATION_TYPE_ID" id="244DECC2-5D12-9E9D-6118-A0DF90988E00">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EFFECTIVE_DATE_TO" id="25AD74A2-CB08-E6BA-A5C2-A894A7FA9498">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION11" id="29CE5586-B178-5410-67E5-B9D4BF7952E5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE13" id="31B4210F-8C7F-8F52-265E-BBD04872E037">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARTY_ID" id="35785EFA-8FC5-7337-B869-7FBBC2E5BC12">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPETENCE_ELEMENT_ID" id="375AA53C-FB96-8D62-8E81-E321119A8879">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATING_LEVEL_ID" id="3946E7D0-A6CC-F920-E94D-14B5DFC9DB5C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WORK_ITEM_ID" id="3A485285-8AC2-03D2-6C12-FCA2887AC4E8">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE15" id="3ADFCA0F-016C-1748-51FA-6A70F95FDF38">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE6" id="3B2FB138-3171-87BB-EFFB-19143368B2F3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSON_ID" id="3C724371-591F-2811-12FB-3C8181384236">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION9" id="3D03BBE8-4F36-D8B3-4825-F521AB1241C3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION15" id="3E4F9899-81A2-1E0E-6204-F6D4758BF6BF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EFFECTIVE_DATE_FROM" id="4370AFBD-0B20-7AEF-7351-A00E13C09AC4">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="43720335-7373-4356-7612-5D29DE685557">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVITY_VERSION_ID" id="46A6E8FB-13A7-5FBE-49E8-63C282AFD4A8">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE4" id="4921F512-D4C6-AEA4-9876-859DCB733360">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIGH_PROFICIENCY_LEVEL_ID" id="5622166B-D4B3-1F10-F562-D6F87ABC4D6E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPR_LINE_SCORE" id="5CD48358-B7B9-F450-909C-FEB558CBEBDD">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION14" id="6063EDF2-8CFC-E5B2-BC28-8B7BBC595628">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION5" id="66F75DF2-497B-1E00-662C-1E951421F5E9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE8" id="6ED4635F-44A8-7508-32C4-4B494ACECEA7">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="70B7D629-E116-BD93-51D0-D07EEA68A3B6">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE7" id="76C44CD6-E0B8-4FDC-DD25-B2B45FAE510A">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION6" id="7B403B21-3E07-F1D6-61DA-0A2B7C664795">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE14" id="7B5E4A6B-5A5E-3816-CC73-EF1F3141DBD9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION19" id="7C269AEB-0E87-0637-B98E-1F91A1F2DEAF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_VERSION_NUMBER" id="7DAF292E-36D0-4F37-5CDA-655ABD3F29DE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARENT_COMPETENCE_ELEMENT_ID" id="7EFC6D23-6A9D-6468-D4BB-B83FC98530BF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSITION_ID" id="811B78BC-1D0A-8C28-CE65-3C0986E1DC7E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GROUP_COMPETENCE_TYPE" id="82C1854F-A7D4-8623-6F75-4BDF8C505BA3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE9" id="82FAB5B4-CCDB-7044-CC00-54E1765B8D52">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_DATE" id="87CA85D6-D0F2-EA1E-96DD-00568583E943">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION18" id="8916658C-D863-C656-D305-74DC4E516713">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPETENCE_TYPE" id="8ECE530F-E3EB-5D26-0CF2-5ED5C985728D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASSESSMENT_TYPE_ID" id="8F4C3687-BDD2-C389-E8D6-6AB2C70E5F74">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_COMPETENCE_SET_ID" id="92C00B73-E644-7B66-9AAF-2D86AEF01D77">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE20" id="93FEB24D-D166-3D99-07A2-4DBE39163E59">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROFICIENCY_LEVEL_ID" id="99541B45-3D73-2BF3-B398-78C02D58872C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION20" id="9B671E3E-5E86-5F9D-8C89-364F1D93AECF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE12" id="9E223C0E-A646-FD42-FDD1-2DF1BEB66DC5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CERTIFICATION_METHOD" id="9FE99A85-DDF6-60C8-1978-58AD198A7BD7">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION2" id="A38D8BDA-2FCE-5D67-F032-958509BECA27">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE17" id="A742426E-4F85-D1EA-71FD-78547CB7177C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACHIEVED_DATE" id="A7841D42-BE4F-6533-D166-52735ED1A75E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION7" id="A7846A3F-B677-85D9-F201-00E0678FF8A8">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION1" id="A899E70A-16C3-1AE3-A488-36716472BFD4">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANDATORY" id="AA9B8CEA-1F1E-D4EA-41F6-59CFC38D7BBD">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE16" id="ACA2EE63-67EF-44D6-83CF-AA8A1A3E3E8E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOURCE_OF_PROFICIENCY_LEVEL" id="ACE3623F-97A7-A47B-D010-3AFBFEE6169B">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE3" id="AF2AF332-4D4C-9C14-FF68-C2EC68FCC0EC">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE5" id="B26A1A74-CAD3-C3B1-9B25-6BF91F81631C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUSINESS_GROUP_ID" id="B676B2EC-3EEA-03B5-7828-7462F3777E1E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_ID" id="BE3B61E7-E9F8-4004-C2B8-60CAF9641BB0">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINE_SCORE" id="BFA4177F-1C86-EA3C-B1F0-8DF9C7109B12">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION8" id="C1F3B645-576F-E5C6-C9FD-82B1BAD58A68">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPETENCE_ID" id="C4C243FB-7AC6-745E-CDE7-BAA533C07724">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORGANIZATION_ID" id="C5515D79-A8E9-570F-75A7-C7F0331CE368">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_BY" id="CB7ED95B-3201-E320-1B38-9E78287A099F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE18" id="CC1A2615-13B7-8949-815E-9C6C27204A39">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBJECT_NAME" id="CCB85A62-2C87-BD7B-C784-B159812FEBA0">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENTS" id="D26E8062-BC7D-3BF3-489E-BDE077D0A69C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENTERPRISE_ID" id="D404F575-8A81-3853-10CD-6633F805E1D6">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEIGHTING_LEVEL_ID" id="D44EB382-94D8-C36F-1A26-55FBF60BE09F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION10" id="D7604B5B-A441-2F13-CDC4-ACBAD225C21D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION16" id="DF33AFEF-66C9-EA05-B093-B90604764D5F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATE_LOGIN" id="DFF00A46-14E5-FCAD-D9ED-093A54377F1C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE2" id="E555A566-8F1B-F5F7-1E5C-44CE10652B0D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INFORMATION3" id="EA1786BB-DF24-50A1-6AFA-340C19F14909">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENTS#1" id="EC667B37-E16F-C980-0AB4-0607749B9E1F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE1" id="EF84E23A-35D7-8489-C7F1-CEACA5DAC680">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPETENCE_SET_ID" id="F20976C2-F17A-9284-57A3-10AB469F72AE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CERTIFICATION_DATE" id="F5329085-B6C2-9DAA-73C7-FEE4AAB9F47F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTE_CATEGORY" id="F68B9B33-6C4F-59D0-2ABF-D340C85D2D53">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEQUENCE_NUMBER" id="F7E489AA-B47D-D3E3-AFE0-2CFC778071BE">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALID_GRADE_ID" id="F916E956-41D1-961F-DA8D-211D6E744A32">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIT_STANDARD_TYPE" id="FF9AFDE2-29ED-447D-DD46-7E26FB514436">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK7" id="14C63F49-9CD1-B0E2-E610-6D50B893DB90">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK19" id="2FB4453B-D367-1AFD-0C8C-ED9227740EA7">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK6" id="470F648E-DFF2-A7DF-9FCB-E2347A68BCB9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_N5" id="6455C7EB-F36E-A9F9-9766-99EFBF5684B3">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK17" id="71069AAA-D532-1E10-8669-8F9947A2DF7C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK5" id="74524302-41F9-00A9-90DE-4A5E967EE371">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_N4" id="8910FB04-D12E-1640-B727-BE413C92E366">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_N3" id="970D737C-7F97-30EE-B9BE-0F42C09B145B">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK15" id="AFDA53B5-B24A-EB74-E75C-177275C79206">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK20" id="B080D460-A764-6590-4602-DE76BF2A6907">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK16" id="B3F292A2-6D95-320F-8F41-8C1ABAE6725A">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK10" id="B5D5DC86-FA0D-C041-AF16-02EC60EC73F6">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK14" id="C582BA60-E79C-A64D-89EA-B144377D0FCC">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK9" id="CA5050B8-8796-2BF8-A005-82AE8C335392">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK1" id="CB7DE2C5-4014-C261-6488-BE89CA6CDB4A">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>F7C6DAE7-0134-6588-39EF-2684EFBE6DF0</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_PK" id="CDDD0CC2-3B93-8D9C-381A-89FCF127ABE8">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<logging>NO</logging>
+<segment>5AD7B2A2-FF1F-5B3C-161B-DB19BFF3B930</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_N2" id="D36E65BB-E969-798C-FE49-BFEA09B6FF1E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_N1" id="E636D2DA-2769-B262-7C6A-5A1CF9CDEA94">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK2" id="EB214639-1921-B34A-477F-D88C0BD515F7">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK18" id="EF008B68-56BE-230B-9EF0-C10B48A4EBA1">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK23" id="F83E6CEC-0A78-9DC5-4ADA-F84B8050B637">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK8" id="F9D39285-9266-E9BF-DAB6-2A4918A38DF0">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:20 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<schemaObject>DF1B45F9-635F-5144-8353-0832859A4CDB</schemaObject>
+<segment>6FB87BA9-BF40-092B-1065-6CC87B491819</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK1" id="039B6E04-0F50-8709-9BC0-FDAD14B2D13D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK20" id="132B36D9-41F8-15DD-7774-18FE4650E431">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK17" id="272C1371-C06F-6B77-B683-89AB9FE6532B">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK16" id="30450FB0-48E3-8B27-0774-8F85558FA10E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK5" id="3A907AA3-E681-E011-2F6B-D409BE166394">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK10" id="47034F9C-34B1-5801-982F-219F86BFB535">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK14" id="5F38CE95-BADC-2068-3E4E-5277CEB50C1E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK19" id="791657B0-F916-9103-ABC1-52EC11F496CB">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK6" id="89D0C49C-6F99-874E-4C31-AE69DFBEFE0A">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK2" id="C1FFCF86-B8D9-058B-EEF0-9833CCDEFDBA">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK15" id="F2042EB8-A8D8-F6A3-9207-2C639A7BC894">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK8" id="F7C50527-6994-BC8C-2326-A3B2766192AF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_FK18" id="FC851EDC-A9C5-072B-AE3C-DFF27D7F340F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<validate>NO</validate>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PER_COMPETENCE_ELEMENTS_PK" id="80571291-61EF-2C13-4910-8F25ACF01BA9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:25 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<logging>NO</logging>
+<segment>5AD7B2A2-FF1F-5B3C-161B-DB19BFF3B930</segment>
+<tableSpace>80D00F38-B1BB-76C4-4C5F-F32D8427BD07</tableSpace>
+<existingIndex>CDDD0CC2-3B93-8D9C-381A-89FCF127ABE8</existingIndex>
+<indexSegment>5AD7B2A2-FF1F-5B3C-161B-DB19BFF3B930</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

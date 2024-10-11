@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_GRADE_SPINES_F_FK3" directorySegmentName="seg_1" id="C15830A1-3E23-4D84-C1D6-B31218DF6A91">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>0DB857E6-41D4-82C4-3B2F-72B7B162522F</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>BF27A3B8-04BD-270B-5978-D589434D93CB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>062A60DF-F2EA-4434-D1A9-EE8CFDC87644</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DEDD9A59-799F-3F6F-32A8-5E501E44A479</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

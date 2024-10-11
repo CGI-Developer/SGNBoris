@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAY_PAYROLLS_F_FK6" directorySegmentName="seg_1" id="A6D10396-9822-FEE6-5AB1-6122155B0C67">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>12C5B1DF-F364-98DE-B1B6-D211655910A2</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>D9175A9B-32EE-96F3-4790-A0E9A3773317</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2546E141-78B1-A308-83A0-384FA1AC54D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8ED1BB85-E0C4-1FF8-2496-83FA7BB72F04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

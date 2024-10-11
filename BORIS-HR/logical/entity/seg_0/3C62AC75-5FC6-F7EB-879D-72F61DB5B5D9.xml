@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C62AC75-5FC6-F7EB-879D-72F61DB5B5D9" name="ASSIGNMENT BUDGET">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>50305364-62F0-9EB4-AAAD-283DC80C2FB4</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ASSIGNMENT BUDGET VALUE ID" id="391E0498-ADC9-AECD-23E3-25E1961E69BD">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>EB0B7DF4-B8E2-433C-4B18-C5F38BCCC377</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE START DATE" id="5073FBAA-9B99-ACDC-637B-32D9D0657C9F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>F4FFAB7E-EF51-E20B-0A2A-BE29052A0A9E</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE END DATE" id="7A62D164-D7D4-B94C-DBCF-05D6768BCD7F">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>C1A84491-ABA5-CD24-54E3-DD580617129F</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASSIGNMENT ID" id="B3A18641-1CDA-32C5-2A89-2957CDEB8EC5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-29 22:11:50 UTC</createdTime>
+<generatorID>D6753811-2EAC-459E-4766-D94281EC7130</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>2D381D17-9A35-838E-97E1-818DEDD59CF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UNIT" id="5B37D678-B668-1505-268A-5152E7A5BF1E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>FA5D38A3-F135-356A-91D8-5AF7EBF72B91</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALUE" id="F5B279FD-81A8-FA8A-4797-D8AF1379FE62">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>6046F6DF-F765-54EB-27A5-26AA6AC9120D</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,25,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUDIT FIELDS" id="803F3285-9C99-0747-CF52-A81310DF0491">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>ADD7FA51-6D3D-760C-4D5B-C5AD66ECC0DB</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03B34111-9BCC-39D7-3F15-6364C36E9618" name="PER ASSIGNMENT BUDGET VALU PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>6D8DEBC2-841C-D2E6-16B5-23F13BA48CE5</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>391E0498-ADC9-AECD-23E3-25E1961E69BD</attributeRef>
+<attributeRef>5073FBAA-9B99-ACDC-637B-32D9D0657C9F</attributeRef>
+<attributeRef>7A62D164-D7D4-B94C-DBCF-05D6768BCD7F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C4F55F16-B948-438D-A0DA-CD9610204D30" name="PER ASSIGNMENT BUDGET VALU UK2">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:20 UTC</createdTime>
+<generatorID>B38E30DF-3A87-8DB1-E3D9-2738040D7A17</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<newElementsIDs>5073FBAA-9B99-ACDC-637B-32D9D0657C9F,7A62D164-D7D4-B94C-DBCF-05D6768BCD7F,5B37D678-B668-1505-268A-5152E7A5BF1E,B3A18641-1CDA-32C5-2A89-2957CDEB8EC5</newElementsIDs>
+<usedAttributes>
+<attributeRef>5073FBAA-9B99-ACDC-637B-32D9D0657C9F</attributeRef>
+<attributeRef>7A62D164-D7D4-B94C-DBCF-05D6768BCD7F</attributeRef>
+<attributeRef>5B37D678-B668-1505-268A-5152E7A5BF1E</attributeRef>
+<attributeRef>B3A18641-1CDA-32C5-2A89-2957CDEB8EC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

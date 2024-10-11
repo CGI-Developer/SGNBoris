@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="9E040610-37AD-4AFE-D055-08C0018E0AB3" containerWithKeyObject="53409461-3A5B-1AFA-77FB-7FE047D92D93" localFKIndex="ADEB2DA4-9F21-5313-6077-5C094F5178F5" name="PER_ORG_STRUCTURE_ELEMENTS_FK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ORG_STRUCTURE_ELEMENTS_FK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:18 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>037B940C-30E3-C5BF-24AD-BE70647536FA</importedID>
+<referredTableLongName>HR.PER_ORG_STRUCTURE_VERSIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEC42F84-574A-43CA-F035-B39E44F9FAFB</referredTableID>
+<keyObject>8D809764-8073-C8CE-49ED-F512E1A2E5E1</keyObject>
+<referredKeyID>8D809764-8073-C8CE-49ED-F512E1A2E5E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORG_STRUCTURE_VERSION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

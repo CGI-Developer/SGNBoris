@@ -1,0 +1,372 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB3CF147-0491-B2AC-5952-6021C21D6D90" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_POS_STRUCTURE_VERSIONS">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_POS_STRUCTURE_VERSIONS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:11 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>76BD6AB2-2BB6-3665-3660-18036714EE2B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POS_STRUCTURE_VERSION_ID" id="B6AE92B7-B29B-3CCD-79E5-0CA5D93C49C5">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>POS_STRUCTURE_VERSION_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>B979C5A0-40C8-14FA-B52B-FA0941493F75</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_GROUP_ID" id="A8D83790-B062-38BE-FBF9-BB2150AA8D43">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>BUSINESS_GROUP_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>E2273A89-69EA-3073-89EF-1289504AC2FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73A94B41-930B-56C8-1833-9B8251265B58" referredColumn="BBE870DF-07D1-8C94-7327-916F92DBA324"/>
+</associations>
+</Column>
+<Column name="POSITION_STRUCTURE_ID" id="342ACEEF-5246-6112-5053-EFA059D430C6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>POSITION_STRUCTURE_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>38CAAEEC-35FF-3AEF-3AEC-F4297809F949</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58D55CE9-BC31-10B6-D656-A042DFF6A163" referredColumn="AC66B355-300A-0A03-426C-EEC69558175C"/>
+</associations>
+</Column>
+<Column name="DATE_FROM" id="3FC23424-FC5F-2686-380B-C80EFBAF2D5C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>DATE_FROM</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>27E7692C-1651-1A4C-09A5-61C2A28CBDD1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VERSION_NUMBER" id="F0AD7871-3CD7-4039-A98B-8B931BF010A5">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>VERSION_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>D45628D1-5D64-3E1B-1A1B-F7BFE61644D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COPY_STRUCTURE_VERSION_ID" id="C16EB786-1163-9876-6B35-7ED452B1E960">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>COPY_STRUCTURE_VERSION_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>EF2C87FE-711F-0F81-B07F-2EC90129FC7B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_TO" id="E8A56CEA-2F1F-A9D3-4379-A762F45CFBA4">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>DATE_TO</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>EA34A6B8-3B43-6D7E-2BF9-A7FB42DBFDE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_ID" id="C45028D8-045F-99A8-B3C2-C07381C04C53">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>REQUEST_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6418C3D7-22C5-6D9F-E0AF-1763949997EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_APPLICATION_ID" id="B316E7F7-A14E-233E-5125-0BEB7F5879B2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>PROGRAM_APPLICATION_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>FB35CA6E-36C9-68CB-D2FE-DCFAEAA4B400</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_ID" id="FCB8D6AC-8AC2-B1DB-2478-9FB76970D164">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>PROGRAM_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>0B8AD176-CB95-9CA9-0BE5-1D37747768F9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_UPDATE_DATE" id="AC2FCE3A-9351-20B4-5184-07A2B982DF19">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>PROGRAM_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>02375D74-3448-E7FC-8A07-ABBE79E848E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="14F9EC56-D8E0-2BA6-8F6A-E5E9C57A1976">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>DC242DA3-722C-F113-ACCA-DE0A21A52CA4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="E6552486-7BC5-E1C3-528E-CE61DB0BA3A6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>LAST_UPDATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>B0CBCC2F-7256-E8A5-0186-AC64C1A2BF70</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_LOGIN" id="09076F11-152E-7DF6-545D-E1C711264795">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_LOGIN</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6E6EAECD-DB86-3326-F7C2-DBC0B062D3ED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="FE3BE038-EA1C-6244-6684-6F2C975981D1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>52A4AEDD-0613-4DD0-B8EF-575A40F145BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="510DD3A6-9047-4590-B1BC-45FD8698901F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6677B1BC-16CA-2ED3-D6CB-539FC459FDDA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_NUMBER" id="69FFB418-EE82-0CCF-E0C9-33E41F8DCE7B">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_POS_STRUCTURE_VERSIONS</sourceObjSchema>
+<sourceObjName>OBJECT_VERSION_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>A4C6034F-3AE0-50F4-8B50-9202AEDF68CA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F887119-72FF-F946-EB97-68054201FA40" name="PER_POS_STRUCTURE_VERSIONS_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_POS_STRUCTURE_VERSIONS_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C0F7E274-256E-56B0-F232-2D79182E7424</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6AE92B7-B29B-3CCD-79E5-0CA5D93C49C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB3455A4-3F07-3E59-1714-1864340BF190" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_POS_STRUCTURE_VERSIONS_FK1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_POS_STRUCTURE_VERSIONS_FK1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>9FABD50C-4D38-E1EB-924B-E92CAAB2D587</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8D83790-B062-38BE-FBF9-BB2150AA8D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C4EEE30-88E0-52DD-A1A1-F01BB3152D75" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_POS_STRUCTURE_VERSIONS_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_POS_STRUCTURE_VERSIONS_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>350BE488-4890-3FAF-66FB-30C539BAA6F5</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="342ACEEF-5246-6112-5053-EFA059D430C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AB8EBB9-B9AC-7040-62CC-4B0345196E63" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_POS_STRUCTURE_VERSIONS_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_POS_STRUCTURE_VERSIONS_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:16 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>082A9205-31F9-A238-043D-EA344CDE2EEB</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6AE92B7-B29B-3CCD-79E5-0CA5D93C49C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61290F78-13A5-BFE9-B38E-2FBCFFE1E38B" name="PER_POS_STRUCTURE_VERSIONS_FK1">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:19 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8D83790-B062-38BE-FBF9-BB2150AA8D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F60F067-11CC-96AF-BBD9-86EC31B7A8E0" name="PER_POS_STRUCTURE_VERSIONS_FK2">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:19 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="342ACEEF-5246-6112-5053-EFA059D430C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

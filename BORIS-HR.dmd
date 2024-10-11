@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BORIS-HR" id="B2E312B0-A76C-87F3-0C68-B15C77E2D996" version="3.5">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 12:47:11 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B2E312B0-A76C-87F3-0C68-B15C77E2D996</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FD78AF13-E59E-618C-8725-A52899303FDE">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\Backup</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6B51D0F1-23F4-D395-EDF5-1C9AC664B93A">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9F2B7357-6309-A579-1EEA-40D0D17D2FC3">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C926E2FD-1ECB-9D61-C486-422B83593371">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3B148E6C-7860-2AE8-F24A-257814CB8BB3">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BAB98CC1-AF63-0220-B867-FD893E99AAA1">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="11A352CA-4125-5A2E-CAF8-380E84F061C9">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A6C0EAE9-CEDA-66EF-FFC6-13161578C9DB">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2454D676-36A7-1ABB-35BD-A90AD0084011">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BFD46FAC-0D34-E2EC-2827-E82ACAD62C94">
+<designStoragePath>D:\Users\vs52761\Documents\Data models\BORIS HR</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

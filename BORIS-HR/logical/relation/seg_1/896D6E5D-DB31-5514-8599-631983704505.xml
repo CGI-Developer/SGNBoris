@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_PAY_PROPOSAL_COMPONENT_FK1" directorySegmentName="seg_1" id="896D6E5D-DB31-5514-8599-631983704505">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>E498C843-ADED-3560-8C8D-1E8C5670FAF4</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>271E63E7-ECA7-9EF1-D985-844B27ED021C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DDCEB0B7-995A-F145-C608-912143F4BC98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D6182E0-88EC-199F-CF14-FD92A08371A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

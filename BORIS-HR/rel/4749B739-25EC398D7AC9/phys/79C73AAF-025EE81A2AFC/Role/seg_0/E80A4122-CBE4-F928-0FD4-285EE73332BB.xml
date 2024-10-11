@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="APPS_RO" directorySegmentName="seg_0" id="E80A4122-CBE4-F928-0FD4-285EE73332BB">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjName>APPS_RO</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:38 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="2371FF59-0DF5-0248-2D9E-7719D7CEF493">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-12 14:01:05 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>61E3F26E-15E7-EEDC-4706-F8011E43248D</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

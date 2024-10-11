@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77FE7B31-332A-7817-00CB-390F8B90E4F7" name="DEPARTMENT">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:05:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8461E094-7CAC-2261-6D4E-F4C13A4D4417</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEPT CODE" id="04A72F22-E3C3-7694-2BC8-DE5E16E756C9">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:31:42 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORGANISATION UNIT ID" id="01A2662A-EF0A-02EC-5CE2-F9A8E4539A9C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-18 14:55:38 UTC</createdTime>
+<generatorID>9B1B140C-B1BB-1747-355D-6C0E4ED4C2B4</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>66D18491-407A-DC6C-996E-87574052043E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTMENT ID" id="646E933A-4473-FB57-A5B0-146DCCCD0EB0">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-18 14:57:08 UTC</createdTime>
+<generatorID>D9D85A37-EF24-90AD-E9D0-B84456E5844D</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>66D18491-407A-DC6C-996E-87574052043E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C79E55F3-1467-345F-B892-7EAB1A9D0786" name="Department Code UK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:40:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<newElementsIDs>04A72F22-E3C3-7694-2BC8-DE5E16E756C9</newElementsIDs>
+<usedAttributes>
+<attributeRef>04A72F22-E3C3-7694-2BC8-DE5E16E756C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

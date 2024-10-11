@@ -1,0 +1,812 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DE16D94-935D-9EDF-DE86-FE8823F07E17" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PHONES">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PHONES</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>593D13B7-0D47-07E6-0734-8361580152FA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PHONE_ID" id="785866B7-6B64-0476-9555-6D87413849C7">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PHONE_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>38319962-33FF-49F9-4CB8-9ABAA80A5750</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FROM" id="7754D9EB-FA25-7E0B-8D89-878CA7E572EE">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>DATE_FROM</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7E74E132-5827-163D-23EA-EE7309A124FA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_TO" id="F59E4B9D-E628-6517-A482-0A29E7C7B110">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>DATE_TO</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>45FE9910-6945-94B4-1BE4-DD9DCBA1868A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_TYPE" id="80BD1DED-8200-53D5-3D0C-6E85EBAA25D3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PHONE_TYPE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>5319605D-F001-7C9F-DEFE-7553B836FA5A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="20C2AD77-DCE3-5EC9-0692-8311711A35D2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>DA980ABF-97AF-36D7-F39C-5028EB530E4C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_ID" id="7611FE37-2480-5A62-76D3-DE9CE105CC93">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PARENT_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7F9241A9-A2B6-F83F-7D68-3DA96CA36DDD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_TABLE" id="7052C27E-3066-1330-3A67-297669BDEA54">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PARENT_TABLE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7DF2DEEE-1807-B429-1702-0CC579EB440D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE_CATEGORY" id="80BF33F9-A545-EFFF-A72F-D77887B57C64">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE_CATEGORY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>CF7D6FD0-066B-0BD8-F469-466198B0E91B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE1" id="7BEA5D21-1669-50CE-DB0C-BAC72B15082D">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>740F60F8-A843-7622-9BD2-C564E5233638</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE2" id="7CABD4B0-5F14-7BD3-7EAA-A0A244FB6219">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>1F5DF70E-2021-D01D-0473-A5B9BE260BED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE3" id="31F768D4-F94F-6F88-51BF-6B5D71C1ED0E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>E8C32147-3A0F-E133-DDD0-5CF90EC458B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE4" id="41443445-8E1D-C60B-EF9D-5F4E74824AF0">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE4</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>99C3EBDD-2673-1C78-61F8-002C989BF71E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE5" id="7058F0E5-10B2-B3EC-4949-A05D84D1D632">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE5</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6E3D9DD8-4064-9B19-F225-B7E21636EF19</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE6" id="585E7ACD-1F0E-2FCC-93E8-0224F26233A8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE6</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>86996AEA-E92C-FC8B-099E-18234B5828AB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE7" id="9F39983B-76BE-1EBF-2890-170A83C24176">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE7</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>FDF129C8-AD35-C95E-20EE-AB5D31177A55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE8" id="8920AAB9-7C33-9E92-2D9D-866326762ECB">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE8</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>98D631BD-E0D1-5FB0-0EFF-79D55B59447B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE9" id="39B26D27-1947-0BF3-3F18-578F9E36ED3E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE9</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>22B225E3-07B2-9564-5821-A326B36D23E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE10" id="25D179DD-C7B7-B055-A254-9A781FB69155">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE10</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>FE818A1C-6473-9238-CA01-393BBBFE6044</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE11" id="9F26D14A-CA4D-30A4-6921-A4A3B775F1D8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE11</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>10C40A43-354B-2287-DCAC-23A52E7DCE1B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE12" id="10A93238-5CAD-DB9B-6614-85A3DCB9AEC8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE12</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>42CBB3E6-6057-BB6F-51B4-D218DEF4E523</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE13" id="9342F687-FF31-850D-4939-2B240173C453">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE13</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>2AA5CA73-9300-A431-162D-1C82BB35C59F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE14" id="5DF1B8EB-C6D3-6897-369A-EE41A9DEEFB1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE14</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>82D3F6C5-8B89-33B1-37E2-40C79D14AF01</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE15" id="BCB1C80C-2A3D-3068-0371-424834967FB9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE15</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>904E3D80-2176-8A2E-FABC-AC14D6D53DF7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE16" id="74831DF5-65F2-6E91-ED5B-DF5D4C49550E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>6A6AB6D0-6940-CEEC-3D5B-88138A8A00A5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE17" id="DDC98159-1111-70F7-A73A-85A06E67D00C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE17</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>484AA625-E007-8B02-7D21-154320FB8C96</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE18" id="DD031380-759D-58F7-F830-566F4F5CAE73">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE18</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>55393E2A-7318-2101-AA22-406FF2756A89</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE19" id="D0802F11-68DA-4046-0B05-FAC3587F5FF8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE19</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>4F4CD7F0-8A13-D61A-9107-E37EDA273AC4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE20" id="A5DDD1C5-CA32-68DD-77BA-7E60C63A6D15">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE20</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>11376E9A-22F1-8D1A-B555-5AFF7AA7BCB2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE21" id="52E744EA-2F4C-2E49-C24A-8163A25144B7">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE21</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>A6D60AF2-9FBB-AE2E-C4ED-DA32764062F8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE22" id="5ACCD2D7-A2E5-14C9-8E7A-FC03CA42E55F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE22</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>210780E7-9C3F-0444-5D09-E24EB1441079</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE23" id="08FF6650-8EC3-15DC-A519-4E95C2DD3957">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE23</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>3E918DB9-F836-A9DE-FEC9-80875D85FB6D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE24" id="F91F6148-71B3-9D38-3290-3A5FCA302BBD">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE24</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>E4A49E46-2AC7-CF07-24A2-D8B7485C39E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE25" id="D67D5A05-4C3A-BCE0-0DB8-55E8EE8B2569">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE25</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>2E4B9305-59FB-E9FD-30E4-7C1FD76E4430</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE26" id="9E757FB3-CA7D-C9AF-F593-563EF75F2F0C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE26</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C040ABF6-7EDD-D5C0-A8D7-29649CD86B7E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE27" id="3F45BCA8-B6DE-66F3-69E7-61E64A315D44">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE27</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>565E2038-AF78-A012-E33D-CA66D62F949A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE28" id="B7E7EF49-E822-3194-A12A-C6665214061E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE28</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>4E57CE9A-577D-9E1F-1C0E-B9F43553EA40</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE29" id="46C4F367-9A23-01B3-55E2-C456AB2CA669">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE29</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7D879DB9-66B4-FC7D-2AFF-21350DE97D2A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTRIBUTE30" id="523E6C95-495C-8F1E-87EF-4973C89CBA8A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>ATTRIBUTE30</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>B27F2A88-16F1-3D13-71DF-4630AA41BAD0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="FE6F5AF8-8283-2594-DE42-6E491DF3ACFB">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>476AA9E3-33B4-5630-A1B1-9D9920202DE1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="8CE56602-3E31-8B9E-A43E-17735E546487">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>726674AD-1686-0041-60CE-CC4D97FDE897</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="9AB1F902-514C-5F90-E924-E7AFAF0BB9CC">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>LAST_UPDATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>926F53C5-8DFF-1A2E-90A2-087CC82A4760</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="F64B3D54-4E0B-7EF2-D5E1-3891AAB28B7C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>8EBE8379-F5EE-12F7-CBB9-D501CF0B4B22</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_LOGIN" id="B380BFBC-59FB-2EFE-C6C2-C4BE89C8C35A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_LOGIN</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>480FA1B0-F61A-B3C7-74BF-A1F1779214E4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_NUMBER" id="2B279545-948D-B4CF-4B5F-04515C7E43D2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>OBJECT_VERSION_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>0D6D2AED-5EC8-AB34-E928-B9B4DEDAAECE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTY_ID" id="91A80B2F-CC89-FCB1-A7F7-965EDA0ACF3A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>PARTY_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>984277F2-0DCB-8FA3-C845-19D9A30785D0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALIDITY" id="51A35E7D-280F-1AC8-7D7A-2FD9E83F9714">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_PHONES</sourceObjSchema>
+<sourceObjName>VALIDITY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>2F83FBF8-E207-B084-5C19-D6784094C1C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1343A9C1-24DD-3F58-9D15-37B86045A588" name="PER_PHONES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PHONES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C0B97F55-6CFB-6EE9-B098-C8C2FCFAD836</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="785866B7-6B64-0476-9555-6D87413849C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C26B7C0F-C258-202B-720B-805EF6D4396E" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PHONES_FK1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PHONES_FK1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>74491748-0662-F7F1-6055-5BAA9C0D83F4</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7052C27E-3066-1330-3A67-297669BDEA54"/>
+<colUsage columnID="7611FE37-2480-5A62-76D3-DE9CE105CC93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2EC16ED-A60C-AC2E-C456-7C23E4B1A337" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PHONES_N1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PHONES_N1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>94FCD64D-1CF7-B4E7-EB3C-A3C84BE6BA51</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91A80B2F-CC89-FCB1-A7F7-965EDA0ACF3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="122E456D-2D8B-CF26-07D5-CFAF63A40D79" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_PHONES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PHONES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>8E34427A-5A6F-1942-010B-18AAD96A3A18</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="785866B7-6B64-0476-9555-6D87413849C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

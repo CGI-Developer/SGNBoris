@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="C44B95E5-F894-3CA0-3705-2414A0D1AC51" name="ASSIGNMENT VERSION">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:01:11 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ASSIGNMENT ID" id="74FBDE9B-DA2D-D116-A5D2-E16A96BB07FF">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:02:25 UTC</createdTime>
+<generatorID>9CB832CD-EC62-8A0C-F0AC-E4B459B22A28</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>2D381D17-9A35-838E-97E1-818DEDD59CF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE START DATE" id="BCC9EFD5-DC47-0E00-EE38-F45B3D31D791">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:02:31 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFFECTIVE END DATE" id="14881908-CB3C-5D9C-D336-04A777ED17DD">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:02:48 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73EE28F1-FDDF-BFE6-FBF4-F1F16CA49931" name="ASSIGNMENT VERSION PK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-24 21:02:25 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74FBDE9B-DA2D-D116-A5D2-E16A96BB07FF</attributeRef>
+<attributeRef>BCC9EFD5-DC47-0E00-EE38-F45B3D31D791</attributeRef>
+<attributeRef>14881908-CB3C-5D9C-D336-04A777ED17DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

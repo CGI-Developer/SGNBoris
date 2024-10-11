@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="80EA68DD-B8F9-2906-73C5-D84FCF92D520" containerWithKeyObject="B79899FC-FEEE-4C68-C395-1D13704078D3" localFKIndex="4E275205-B9C9-E37D-6BB4-F0BA2021741C" name="HR_ALL_POSITIONS_F_FK16">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>HR_ALL_POSITIONS_F_FK16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-08 22:52:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>58F339BC-F313-CF51-30F4-AC955FCD646F</importedID>
+<referredTableLongName>HR.PER_PAY_BASES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6861578-585D-626F-577C-10A636DAFA94</referredTableID>
+<keyObject>F9DF0C80-287D-B26F-8718-A17FA7B8DC82</keyObject>
+<referredKeyID>F9DF0C80-287D-B26F-8718-A17FA7B8DC82</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PAY_BASIS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

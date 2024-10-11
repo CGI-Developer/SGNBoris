@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B181DB2A-ACCB-CBD2-2F36-1D9B57655BE1" containerWithKeyObject="B2CEE6E7-8285-8136-734C-7AC0D3B4440D" localFKIndex="A8A46890-17DB-4C46-E85E-8063983D2A1A" name="PER_ASSIGNMENTS_F_FK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ASSIGNMENTS_F_FK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<referredTableLongName>HR.PER_GRADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6E451F7-75F6-0C65-87DA-1D6AD801F357</referredTableID>
+<keyObject>B8CD84FE-9988-8E25-873E-47EDE81D7636</keyObject>
+<referredKeyID>B8CD84FE-9988-8E25-873E-47EDE81D7636</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>GRADE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

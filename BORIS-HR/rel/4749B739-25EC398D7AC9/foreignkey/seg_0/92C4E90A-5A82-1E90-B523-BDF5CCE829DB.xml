@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="92C4E90A-5A82-1E90-B523-BDF5CCE829DB" containerWithKeyObject="432BE14F-B958-24F4-CBE6-14212187DCAB" localFKIndex="2DC476FE-B357-DAE7-B3BE-7AE7E902BF83" name="PER_PERSON_LIST_FK1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PERSON_LIST_FK1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<referredTableLongName>HR.PER_SECURITY_PROFILES</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1C838C25-C308-99A2-5A41-3C70E18AE9D5</referredTableID>
+<keyObject>645BEA89-EF44-CF26-F8E7-AC5C503AFB2F</keyObject>
+<referredKeyID>645BEA89-EF44-CF26-F8E7-AC5C503AFB2F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SECURITY_PROFILE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

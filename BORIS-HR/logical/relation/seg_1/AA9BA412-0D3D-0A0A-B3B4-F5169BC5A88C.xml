@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_ABS_ATTENDANCE_REASONS_FK2" directorySegmentName="seg_1" id="AA9BA412-0D3D-0A0A-B3B4-F5169BC5A88C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>80833191-FA94-60B2-13EA-F5B14A4BA057</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>BBAB3EA8-517E-7A35-608A-4A56C48EBDFB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73653B81-7727-4206-8193-A7B7839F6692</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A4EA169-9480-0FB3-4D26-520E38D18884</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_SECURITY_PROFILES_FK2" directorySegmentName="seg_1" id="69B281A5-E8D4-E6F8-BFBA-DBF69295DD6D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>590223B3-ABB3-1C30-E7A1-C8B358FE0AE6</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>FC36EB44-395A-61DA-4FDA-3F8B29D898D3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2B910D4-CD49-9F19-AAD1-0B47686D521E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD073176-8335-C621-EC7E-01E895E45172</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

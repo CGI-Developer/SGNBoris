@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="228BD9FD-4C1A-D161-9040-72CE74F230A6" containerWithKeyObject="B2CEE6E7-8285-8136-734C-7AC0D3B4440D" localFKIndex="320F210F-9548-BE5A-761F-5C28711927E3" name="PER_ASSIGNMENTS_F_FK16">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ASSIGNMENTS_F_FK16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<referredTableLongName>HR.PAY_PEOPLE_GROUPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E252350-CC6E-7771-7194-7DC57CC2B626</referredTableID>
+<keyObject>F969B533-0F70-6A0F-4EB9-BA441A03FE50</keyObject>
+<referredKeyID>F969B533-0F70-6A0F-4EB9-BA441A03FE50</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PEOPLE_GROUP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

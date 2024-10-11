@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PER_SPINAL_POINT_STEPS_F_FK2" directorySegmentName="seg_1" id="F5E59E8B-1E6B-9D16-27A4-C74F59292B21">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-22 21:12:21 UTC</createdTime>
+<generatorID>71EF2018-E116-A164-09A1-429F47046FCC</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<sourcePk>89051617-412B-7D0A-3D3D-1F5287EC21A4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C7D11081-8A38-E852-4E74-4D9806DD4C0D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BAB7C978-959D-E9EC-4413-CA8A0DCED192</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

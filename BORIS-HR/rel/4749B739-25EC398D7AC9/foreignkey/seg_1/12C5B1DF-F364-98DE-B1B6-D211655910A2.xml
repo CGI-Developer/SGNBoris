@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="12C5B1DF-F364-98DE-B1B6-D211655910A2" containerWithKeyObject="12CAE80F-810F-3500-D0A1-1459AA1FF288" localFKIndex="3F27734D-5E05-EB7D-D552-EFFCD435FE07" name="PAY_PAYROLLS_F_FK6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PAY_PAYROLLS_F_FK6</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>C91987A2-C16A-FB9A-BDFD-2B91D3DCD12C</importedID>
+<referredTableLongName>HR.HR_SOFT_CODING_KEYFLEX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AC4ED9E-90B2-26F3-E2BA-9412D3B95828</referredTableID>
+<keyObject>5E7380C5-6FA4-1217-4101-EDB7C1F754A9</keyObject>
+<referredKeyID>5E7380C5-6FA4-1217-4101-EDB7C1F754A9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SOFT_CODING_KEYFLEX_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

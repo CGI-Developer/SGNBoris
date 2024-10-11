@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="AC372210-830B-63CB-15B2-34795B1E852D" containerWithKeyObject="C83455AD-ED33-17ED-159F-098DE2F8FA21" localFKIndex="B50A8E42-E7BC-6DA0-AEC5-2CE99837208C" name="PER_SECURITY_ORGANIZATIONS_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_SECURITY_ORGANIZATIONS_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:19 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>300B975F-7571-D828-6C62-FFCE00311F76</importedID>
+<referredTableLongName>HR.PER_SECURITY_PROFILES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C838C25-C308-99A2-5A41-3C70E18AE9D5</referredTableID>
+<keyObject>645BEA89-EF44-CF26-F8E7-AC5C503AFB2F</keyObject>
+<referredKeyID>645BEA89-EF44-CF26-F8E7-AC5C503AFB2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SECURITY_PROFILE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

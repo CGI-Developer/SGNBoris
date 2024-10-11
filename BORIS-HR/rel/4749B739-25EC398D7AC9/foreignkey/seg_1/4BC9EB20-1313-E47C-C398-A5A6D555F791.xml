@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4BC9EB20-1313-E47C-C398-A5A6D555F791" containerWithKeyObject="EDCC853C-C4A5-E67B-5413-E2549AD68B90" localFKIndex="38B74F77-48FD-8E86-0788-32974CEF2DC6" name="PER_PAY_PROPOSALS_FK4">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_PAY_PROPOSALS_FK4</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>684825F2-7D12-E767-D074-491D7DD8828F</importedID>
+<referredTableLongName>HR.PER_PERFORMANCE_REVIEWS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>PERFORMANCE_REVIEW_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

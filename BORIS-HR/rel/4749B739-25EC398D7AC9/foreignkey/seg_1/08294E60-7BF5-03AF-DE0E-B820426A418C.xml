@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="08294E60-7BF5-03AF-DE0E-B820426A418C" containerWithKeyObject="240C1A66-EC2D-3EA6-0D7B-E36D9E188FEC" localFKIndex="FFB493C6-11E6-C195-79D8-1DDD895F2E5D" name="PER_EVENTS_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_EVENTS_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-09 14:21:18 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>1B7ECBF5-FF28-9DA7-6DD1-EBAE41252846</importedID>
+<referredTableLongName>HR.HR_LOCATIONS_ALL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECF5B62E-7AC4-4867-978F-8C7BDA7BBE03</referredTableID>
+<keyObject>B0A9FECD-8EA0-D295-364E-1D37D24B4760</keyObject>
+<referredKeyID>B0A9FECD-8EA0-D295-364E-1D37D24B4760</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LOCATION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="37E5338E-C271-4033-2492-76EC2EFF2A82" containerWithKeyObject="12CAE80F-810F-3500-D0A1-1459AA1FF288" localFKIndex="691A1F6D-AF20-EB22-4BD5-596DEBB06631" name="PAY_PAYROLLS_F_FK3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PAY_PAYROLLS_F_FK3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-06-17 14:24:07 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>7B9BBEC5-DD72-FB88-17E9-6572EC60DE00</importedID>
+<referredTableLongName>HR.PAY_CONSOLIDATION_SETS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>CONSOLIDATION_SET_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

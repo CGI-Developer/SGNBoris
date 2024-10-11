@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14ECE82A-9DD5-AF9E-C273-616B831DAF7D" containerWithKeyObject="B2CEE6E7-8285-8136-734C-7AC0D3B4440D" localFKIndex="80C88238-D92B-6076-FD62-BE6A926642D7" name="PER_ASSIGNMENTS_F_FK51">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ASSIGNMENTS_F_FK51</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<referredTableLongName>HR.PER_PERIODS_OF_SERVICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24186022-0CDD-83A9-E4B3-7A6118B769BF</referredTableID>
+<keyObject>C02FCA9B-7DBC-52A6-E3E4-C0C437191038</keyObject>
+<referredKeyID>C02FCA9B-7DBC-52A6-E3E4-C0C437191038</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PERIOD_OF_SERVICE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

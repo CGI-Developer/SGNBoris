@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="EF00E0A3-51E4-EA74-38D8-96B781A6009D" name="DIRECT LABOUR">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-26 14:14:31 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>76B539C2-3587-2A9D-F581-337C68E46A6B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAYROLL ID" id="C5BA888A-FA1B-FFF2-F7FF-B0F97FDF818E">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-26 14:27:49 UTC</createdTime>
+<generatorID>62106F24-0882-2BC8-4245-8C1EDE30D8F7</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>8B8A9558-B31E-E408-0548-62427EDBABBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAY BASIS ID" id="79C2977D-5810-0341-DAB3-AAC6D87D1A3C">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-26 14:36:53 UTC</createdTime>
+<generatorID>E17E10F4-E893-F0FD-D552-D4F97FCE14F5</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>C72C0E21-4DF3-3080-3593-5D73C1026745</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRADE ID" id="2EDAC1A6-2E69-6EA0-D08B-7078914F9451">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-27 15:55:47 UTC</createdTime>
+<generatorID>4E90CE9E-7474-79B0-1F00-20873695679E</generatorID>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<referedAttribute>F0659D62-F701-B335-690D-3B1C6C4F99CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="80833191-FA94-60B2-13EA-F5B14A4BA057" containerWithKeyObject="BC7D97F7-BBD9-BB52-5AF7-4745E6C6A4C1" localFKIndex="DF02EC25-3EA7-0DF0-F556-789A922901DB" name="PER_ABS_ATTENDANCE_REASONS_FK2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ABS_ATTENDANCE_REASONS_FK2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-07-08 22:27:02 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<importedID>9005C053-2480-B548-63FD-E17D6783457B</importedID>
+<referredTableLongName>HR.PER_ABSENCE_ATTENDANCE_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B4919C4-79AE-EBF5-1A22-A6641A204F99</referredTableID>
+<keyObject>EA691235-772E-B78A-065B-7A28C41C22C0</keyObject>
+<referredKeyID>EA691235-772E-B78A-065B-7A28C41C22C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ABSENCE_ATTENDANCE_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

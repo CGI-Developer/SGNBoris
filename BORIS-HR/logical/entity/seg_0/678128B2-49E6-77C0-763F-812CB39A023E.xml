@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="678128B2-49E6-77C0-763F-812CB39A023E" name="COMPANY">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:05:18 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8461E094-7CAC-2261-6D4E-F4C13A4D4417</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ENTITY CODE" id="9E7A6C6C-430C-95D8-F9D2-934E4BD3AA2D">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:13:55 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A6843FE-40A0-44B4-3935-46D19E2191C5" name="Entity Code UK">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-09-04 14:37:59 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<engineerTo>
+<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
+</engineerTo>
+<newElementsIDs>9E7A6C6C-430C-95D8-F9D2-934E4BD3AA2D</newElementsIDs>
+<usedAttributes>
+<attributeRef>9E7A6C6C-430C-95D8-F9D2-934E4BD3AA2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

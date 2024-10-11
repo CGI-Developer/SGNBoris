@@ -1,0 +1,1145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1274C7E7-18EE-943B-2B71-254072CBA77D" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address information for people. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<spatialTable>true</spatialTable>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADDRESS_ID" id="6A3A1539-E4FE-074B-C4C1-059D525B9033">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[System-generated primary key column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUSINESS_GROUP_ID" id="EF6916F0-CE2F-AD16-85C0-723D58270379">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>BUSINESS_GROUP_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Foreign key to HR_ORGANIZATION_UNITS. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC132EBD-66D4-6AFF-9F9E-94DE390C9ADE" referredColumn="BBE870DF-07D1-8C94-7327-916F92DBA324"/>
+</associations>
+</Column>
+<Column name="PERSON_ID" id="4505F62C-4129-8980-8154-CF8FA8B5B318">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Foreign key to PER_PEOPLE. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FROM" id="AF088089-B105-186E-E74A-6E9A2CA7EA45">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>DATE_FROM</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date at the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMARY_FLAG" id="D7C17897-68F4-6F87-BC84-3D29407A521B">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PRIMARY_FLAG</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicates whether this is the primary address for the person. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STYLE" id="274C38A1-C862-4EC1-848C-B385EE116126">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>STYLE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address style - foreign key to FND_TERRITORIES. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_LINE1" id="889858E3-F579-CF6C-2614-3340AFDEC254">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_LINE1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[The first line of the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_LINE2" id="11BDE171-32B4-13E6-3FC2-D2DBDB71D6AC">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_LINE2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[The second line of the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_LINE3" id="E025D96C-3269-A62E-9AC5-365404298219">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_LINE3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[The third line of the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_TYPE" id="A3B1C730-C9D4-3419-F864-98A4A88DA261">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_TYPE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address type, for example, home, business, weekend. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="B7D3D831-3B8D-B2B1-08A5-D064EE3818C0">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_TO" id="E8A129A6-10D5-B507-C0C1-8E8738C7539C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>DATE_TO</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date at this address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="CE202AE7-3F4D-60D2-7717-B3F162FDBF33">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>POSTAL_CODE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[National code to identify addresses in a specific country. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_1" id="B2C91803-EB5A-F64C-2AFC-B575A6A4FFAE">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>REGION_1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primary region in which the address is located. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_2" id="E3A76C4F-8438-FA1B-C394-2222CE5C86C4">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>REGION_2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sub region of region 1 in which the address is located. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_3" id="462E864D-3185-9F16-2414-BECA2445A380">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>REGION_3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sub region of region 2 in which the address is located. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_NUMBER_1" id="D32CBFA4-C20D-7EB3-098F-D7B6EFCBBD8F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>TELEPHONE_NUMBER_1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telephone number for the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_NUMBER_2" id="C6291938-BEAD-4266-DDD4-3A269FC2A9D8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>TELEPHONE_NUMBER_2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Second telephone number for the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEPHONE_NUMBER_3" id="9889A399-798C-ADCF-B8CB-36856D70ABD9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>TELEPHONE_NUMBER_3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Third telephone number for the address. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOWN_OR_CITY" id="FC4AB8FF-162D-01C0-D17D-89EF0A74F313">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>TOWN_OR_CITY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Town or city name. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_ID" id="BB59C2A3-4C3C-CF1E-B49B-11C25FB0F13A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>REQUEST_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_APPLICATION_ID" id="F920FDE3-0E34-8D4E-DA7B-DF048F0C0064">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PROGRAM_APPLICATION_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_ID" id="A3FDAE4D-89EB-81C6-705F-78B8362A5EC0">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PROGRAM_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAM_UPDATE_DATE" id="18DB1BD2-5948-3FCC-0E18-304DE20621BF">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PROGRAM_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE_CATEGORY" id="668AE1AA-91D0-5533-C7AF-27871EF0B92B">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE_CATEGORY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE1" id="87D30DFD-3ADC-4CEB-611A-11DDA36E9948">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE2" id="559D9597-5863-1437-9E36-FD6B589A0B52">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE3" id="C9F86984-97EC-CF2A-7E11-92924A04B050">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE4" id="B9E10D2C-87F4-E5C8-678C-B8B539996829">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE4</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE5" id="7ECE0698-4E1D-20F6-B959-F05DDCE96F04">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE5</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE6" id="C8E68C8C-6D90-F0FE-51C7-B36498C2C785">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE6</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE7" id="25F01EF6-4B11-2659-28AC-79D3A4866086">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE7</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE8" id="F41703EF-3505-1510-44E2-2BF8ADAE5459">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE8</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE9" id="B8F56320-5B0A-4519-688C-AAF68ECFF146">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE9</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE10" id="183A05C3-7DAF-6E6A-865D-93A4E0D6FBE6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE10</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE11" id="9E06D433-2794-E3F9-9CE2-B4840F4F9409">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE11</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE12" id="548D61A5-79EB-7982-23AB-9C9CF48F5648">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE12</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE13" id="0F7B5386-98B6-936C-7D6C-E25DDBA7535D">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE13</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE14" id="1B82D738-4E67-D88C-4723-B766A7538888">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE14</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE15" id="8473C3AE-C7A8-F0C6-2A1C-D0F322084E46">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE15</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE16" id="EDDD1822-86AB-31E7-EB97-4B0F92BA9CE9">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE17" id="B4521663-5791-DC89-B138-BB4B603DC384">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE17</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE18" id="A0C43A7F-AB72-9896-B255-3F9724E0565C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE18</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE19" id="C1E3608F-A13C-9D77-CB3F-F82D1F491D6E">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE19</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR_ATTRIBUTE20" id="54C0B6EB-8660-196C-6E85-DC62AF80890C">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDR_ATTRIBUTE20</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_DATE" id="87B1E235-BAE8-7742-1420-B7430CA05718">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATED_BY" id="287418E9-CD93-1CE9-3838-E16AF8211B24">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>LAST_UPDATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE_LOGIN" id="39DBDBFC-71E3-CDD5-9A8A-D4140C210A1F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>LAST_UPDATE_LOGIN</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="60E081D4-F2C0-1102-E44E-38AEC97F9377">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="8D90B0FB-BE3D-F474-8832-7DF83F22FFFE">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>CREATION_DATE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Standard Who column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJECT_VERSION_NUMBER" id="458330CB-1CFE-3D8C-0579-0C32F5DF46A6">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>OBJECT_VERSION_NUMBER</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[System-generated version of row. Increments by one with each update. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION13" id="C97A2C95-12A6-BA9D-7C07-903D999E3E1F">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION13</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION14" id="30113F05-B08A-FFD9-8CC9-05C2EEE6B9A1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION14</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION15" id="F9647840-1FC1-4490-8F53-B932B14D3484">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION15</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION16" id="72EF659C-3039-2E67-2A41-1B0B8D3F18F4">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION16</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION17" id="95E01418-328D-74DB-7D3D-35918A3860A8">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION17</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION18" id="F849730A-34F6-C201-77A3-D6BFDA9B06F2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION18</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION19" id="8BE4F8A5-A534-A1D5-765F-CC6458129DEF">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION19</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_INFORMATION20" id="D6586401-3487-B89D-BD98-2B11E7317CE7">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>ADD_INFORMATION20</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Developers Descriptive flexfield column. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTY_ID" id="188F5DE8-3BB0-A677-AE10-A6C3D3F78BEC">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>PARTY_ID</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Party Id ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DERIVED_LOCALE" id="E884BEB1-8015-0D45-19FE-264E2509FC89">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>DERIVED_LOCALE</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[derived locale ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GEOMETRY" id="8F0C0EA9-9D0E-0C5B-8DD3-18C6FCBA717A">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>GEOMETRY</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="E95822FF-A889-BC17-14CC-53133755C876">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>PER_ADDRESSES</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[General remark. ]]></commentInRDBMS>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B325B258-37E5-15F7-5DBC-6E071A8FDCE5" name="PER_ADDRESSES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:25 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3A1539-E4FE-074B-C4C1-059D525B9033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB8CABAB-5373-6196-D11F-43910684328F" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES_FK1">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_FK1</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6916F0-CE2F-AD16-85C0-723D58270379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5464EF74-F56F-1FBD-3242-E220C91EF2F8" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES_N2">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_N2</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4505F62C-4129-8980-8154-CF8FA8B5B318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73F7BF07-B27E-F204-BF11-CC5C87D2DEFE" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES_N3">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_N3</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="188F5DE8-3BB0-A677-AE10-A6C3D3F78BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69CC1A83-F049-7813-03E0-919C3510D011" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES_PK">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_PK</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3A1539-E4FE-074B-C4C1-059D525B9033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88DFA3C3-4949-206B-3FAA-3AEBAB6E65AC" schemaObject="DF1B45F9-635F-5144-8353-0832859A4CDB" name="PER_ADDRESSES_SPT">
+<sourceConnName>Boris-preprod</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>PER_ADDRESSES_SPT</sourceObjName>
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:17 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<spatialIndex>true</spatialIndex>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F0C0EA9-9D0E-0C5B-8DD3-18C6FCBA717A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="201A1D47-9366-E0A4-E717-D8B902C4FEA9" name="PER_ADDRESSES_FK1">
+<createdBy>vs52761</createdBy>
+<createdTime>2024-05-21 13:56:34 UTC</createdTime>
+<ownerDesignName>BORIS-HR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF6916F0-CE2F-AD16-85C0-723D58270379"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<spatialDefinitions>
+<spatialColumnDefinition class="oracle.dbtools.crest.model.design.relational.SpatialColumnDefObject" name="ColumnDefinition_1" objectID="DA49A41F-70D1-8B89-699A-31B2FF0A5D7D">
+<function>false</function>
+<spatialColumn>8F0C0EA9-9D0E-0C5B-8DD3-18C6FCBA717A</spatialColumn>
+<systemID>8307</systemID>
+<spatialDimensions>
+<spatialDimension class="oracle.dbtools.crest.model.design.relational.SpatialColumnDefObject$TableDimension">
+<name>X</name>
+<lowBoundary>-180</lowBoundary>
+<upperBoundary>180</upperBoundary>
+<tolerance>1</tolerance>
+</spatialDimension>
+<spatialDimension class="oracle.dbtools.crest.model.design.relational.SpatialColumnDefObject$TableDimension">
+<name>Y</name>
+<lowBoundary>-90</lowBoundary>
+<upperBoundary>90</upperBoundary>
+<tolerance>1</tolerance>
+</spatialDimension>
+</spatialDimensions>
+</spatialColumnDefinition>
+<spatialColumnDefinition class="oracle.dbtools.crest.model.design.relational.SpatialColumnDefObject" name="ColumnDefinition_2" objectID="86825CB2-247A-E41F-4899-C577ADD6DC86">
+<function>false</function>
+<spatialIndex>88DFA3C3-4949-206B-3FAA-3AEBAB6E65AC</spatialIndex>
+</spatialColumnDefinition>
+</spatialDefinitions>
+</Table>
