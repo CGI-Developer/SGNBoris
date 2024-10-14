@@ -6,6 +6,7 @@
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
 </engineerTo>
+<typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,21 +16,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PERSON ID" id="272493E5-3810-4461-CF82-38606F1BAD72">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-14 14:01:40 UTC</createdTime>
-<generatorID>BAEE6631-9FAF-2FC8-E83A-E149EEDB0EC8</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="EFFECTIVE START DATE" id="5F7E5CFD-0A3D-08AC-B316-DE9D12B85C5A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-14 13:59:25 UTC</createdTime>
@@ -65,7 +51,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>272493E5-3810-4461-CF82-38606F1BAD72</attributeRef>
 <attributeRef>5F7E5CFD-0A3D-08AC-B316-DE9D12B85C5A</attributeRef>
 <attributeRef>CF8B3D0F-D775-4193-6375-296A6A53C707</attributeRef>
 </usedAttributes>

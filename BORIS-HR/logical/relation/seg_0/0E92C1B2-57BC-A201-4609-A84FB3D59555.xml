@@ -6,6 +6,7 @@
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
 </engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

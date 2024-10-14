@@ -30,36 +30,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="E388AEEF-6080-B577-DCC3-0128656A636C">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-24 13:41:44 UTC</createdTime>
-<generatorID>AD8A1C6E-62D2-AEFB-77D2-8259C6667C11</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TERMINATION ACCEPTED PERSON ID" id="97E254EE-3722-021F-E177-B59AB10CE1B2">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-07-24 22:08:45 UTC</createdTime>
-<generatorID>2A7799B6-2204-5B46-2E38-50CDF2EE32A7</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DATE START" id="5C4304D5-9C9D-5E7A-26F4-ED0A5E1F8A96">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>

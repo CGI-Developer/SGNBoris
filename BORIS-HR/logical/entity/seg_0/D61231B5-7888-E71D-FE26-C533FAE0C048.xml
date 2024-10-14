@@ -29,22 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PERSON ID" id="A17C4FF7-E01E-5EB7-DC02-FBE8E87270F3">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-10 13:34:30 UTC</createdTime>
-<generatorID>C4B112E6-6119-EEEE-E1FC-1DB9B2315868</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FPS ASG ACT ID" id="3294A035-6D6F-EAF6-093B-C40F89DB9018">
 <createdBy>vs52761</createdBy>

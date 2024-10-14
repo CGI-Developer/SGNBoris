@@ -30,21 +30,6 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="0A1A90A2-4C84-A269-D7A7-58BDC2A6EC34">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-07 14:48:07 UTC</createdTime>
-<generatorID>551FCC36-94E7-FE2E-164D-8E2A6FF39623</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="START DATE" id="8D85120C-65E3-5DDE-8D69-E044E68C7FF6">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>

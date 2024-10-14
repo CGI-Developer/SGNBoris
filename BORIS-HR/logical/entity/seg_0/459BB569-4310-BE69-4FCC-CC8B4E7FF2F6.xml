@@ -7,6 +7,7 @@
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
 </engineerTo>
+<typeID>2</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,20 +17,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PERSON EXTRA INFO ID" id="104A02C5-CF8A-DCCC-DD7B-5CD447BA8C98">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>83CEF942-9783-3893-8B12-EDFF171C681E</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PERSON ID" id="4CA9434D-83E5-EDF8-8950-88B3AFCC92D6">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-13 12:39:12 UTC</createdTime>
@@ -45,7 +32,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INFORMATION TYPE" id="603E69EE-DE28-B432-27D3-FAE43C6FA485">
+<Attribute name="Information Type" id="603E69EE-DE28-B432-27D3-FAE43C6FA485">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>4FA7A64A-BCAE-1056-4B55-FFA99C0CAC77</generatorID>
@@ -59,7 +46,7 @@
 <dataTypeSize>40 BYTE</dataTypeSize>
 <ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PEI INFORMATION CATEGORY" id="EC8B68D9-F5D9-7457-F180-E9EE9F34E75B">
+<Attribute name="PEI Information Category" id="EC8B68D9-F5D9-7457-F180-E9EE9F34E75B">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>12FD4318-AAFD-7D88-D8D6-CCB6F33AAADB</generatorID>
@@ -74,9 +61,10 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PEI INFORMATION Flex Fields (1-15)" id="DE49EB4C-7DEC-15BB-ABC5-FBDB732A0BA8">
+<Attribute name="PEI Information Flex Fields (1-15)" id="DE49EB4C-7DEC-15BB-ABC5-FBDB732A0BA8">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>8523DDE2-2951-E22E-EB69-CB26B5F8FDBD</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -89,9 +77,10 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPTIVE FLEXFIELDS" id="97A638C4-A467-931E-FC6F-405E8F80D178">
+<Attribute name="Descriptive FlexFields" id="97A638C4-A467-931E-FC6F-405E8F80D178">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>D9761122-305D-A702-ABCB-5E40638EEC4E</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -103,9 +92,10 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AUDIT FIELDS" id="6422AD8C-5420-C1A0-05AB-425836F07D61">
+<Attribute name="Audit Fields" id="6422AD8C-5420-C1A0-05AB-425836F07D61">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>BA4E70F9-9592-164F-6A66-D5BB2C3814D4</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -119,19 +109,4 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="43984E0E-CB21-B6B5-0FF7-3DC60C26934D" name="PER PEOPLE EXTRA INFO PK">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>440A443C-85A0-37F8-F59C-EEED6E4E0A32</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>104A02C5-CF8A-DCCC-DD7B-5CD447BA8C98</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

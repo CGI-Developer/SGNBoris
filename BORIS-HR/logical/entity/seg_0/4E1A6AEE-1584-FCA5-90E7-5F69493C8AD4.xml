@@ -44,7 +44,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PERSON ID" id="EB0C8A4A-4F99-55BD-41BF-540B94E1B6AD">
 <createdBy>vs52761</createdBy>
@@ -165,21 +165,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PERSON ID1" id="72CCBE3F-5AB5-361F-A956-01FC3D4FAB7C">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-07-25 22:10:17 UTC</createdTime>
-<generatorID>41B4B0E0-7CED-B134-013D-4350070E172D</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

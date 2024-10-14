@@ -58,21 +58,6 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="BB67BBBA-6901-CA58-AADE-719451A52E02">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-07 14:20:59 UTC</createdTime>
-<generatorID>5F4D0A15-1D93-DE83-8A22-AA4DCCCE25F6</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ASSIGNMENT ID" id="84D54B86-7986-FC6E-D83D-E5C34B1D29AF">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-07-24 21:00:22 UTC</createdTime>

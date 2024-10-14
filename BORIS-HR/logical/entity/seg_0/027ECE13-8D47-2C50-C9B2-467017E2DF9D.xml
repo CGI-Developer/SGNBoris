@@ -49,51 +49,6 @@
 <dataTypeScale>0</dataTypeScale>
 <ownDataTypeParameters>,15,0</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="B08F3C4D-4753-CC25-6EC8-7C527E83F74E">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-07 14:52:23 UTC</createdTime>
-<generatorID>2E58BD76-C815-DD17-2657-03F037820CFF</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="STARTING PERSON ID" id="43289680-7140-F495-FE92-B5BE51004AE8">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-07-24 21:24:25 UTC</createdTime>
-<generatorID>5ABDC1A0-D79D-83F2-982D-B2F47BFA9EF0</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ENDING PERSON ID2" id="ABE0E91B-53A7-5BAF-CFAB-4D919C3AA599">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-07-24 21:24:34 UTC</createdTime>
-<generatorID>5670C45A-F668-E2C7-D73B-BE7CB82B4108</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="RANGE STATUS" id="C340F63C-4EB0-83B9-3D68-B843FA7A375D">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>

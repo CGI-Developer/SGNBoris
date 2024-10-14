@@ -46,36 +46,6 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="AF1B343A-4DA4-D68D-9B58-22778632FB5E">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-07 14:17:45 UTC</createdTime>
-<generatorID>8538EB4C-962E-360D-D292-F424790E5EDE</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="AUTHORISING PERSON ID" id="CD389C57-D1B7-B47D-9876-92BB730DC55D">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-07-26 14:25:27 UTC</createdTime>
-<generatorID>8D5FE566-CE22-495E-F82C-4F37DE3D170D</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ABSENCE DAYS" id="5E66EDF4-A0F1-F858-0FE3-70179954EAE7">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>

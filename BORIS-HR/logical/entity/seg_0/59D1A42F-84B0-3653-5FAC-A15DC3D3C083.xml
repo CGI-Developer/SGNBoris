@@ -59,21 +59,6 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PERSON ID" id="E3813CBC-F700-1FB5-35AA-8B862091C016">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-07 14:17:15 UTC</createdTime>
-<generatorID>500F86FE-970F-9CD5-F76B-51891358082E</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<referedAttribute>3A213362-C1E4-9832-81E6-871F9A68453B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="JOB ID" id="F2CF088B-AE34-329F-1576-7A233352B061">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>

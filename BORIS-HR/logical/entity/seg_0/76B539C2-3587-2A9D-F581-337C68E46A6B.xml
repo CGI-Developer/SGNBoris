@@ -7,6 +7,7 @@
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
 </engineerTo>
+<typeID>1</typeID>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,21 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PERSON ID" id="3A213362-C1E4-9832-81E6-871F9A68453B">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>26E7B4B6-FE83-8817-6C19-AC4F828A9F75</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TITLE" id="A547C1BA-0A26-82EF-3946-44D762E2A85D">
+<Attribute name="Title" id="A547C1BA-0A26-82EF-3946-44D762E2A85D">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>9A18D4BD-14FC-DE50-19F0-FC1BD9916D97</generatorID>
@@ -45,7 +32,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NAME" id="C8F98847-3966-B274-0B46-D36C0A8988DF">
+<Attribute name="Name" id="C8F98847-3966-B274-0B46-D36C0A8988DF">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>CD817458-FF98-8767-7C5B-0F0939B64638</generatorID>
@@ -59,7 +46,7 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SEX" id="E701FF1A-7008-7F4C-C10E-EEB1E66CF5A9">
+<Attribute name="Gender" id="E701FF1A-7008-7F4C-C10E-EEB1E66CF5A9">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>09741668-B32D-F565-E8A2-AEE3E95D0D84</generatorID>
@@ -82,7 +69,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PREVIOUS LAST NAME" id="25EB580A-2766-3078-D4D8-AEEDA216829B">
+<Attribute name="Previous Last Name" id="25EB580A-2766-3078-D4D8-AEEDA216829B">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>72D7618D-4F93-2F17-6C4D-215399051B69</generatorID>
@@ -97,9 +84,10 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="GLOBAL NAME" id="E7629B15-D2FE-5F23-1F6B-0A7ECD946D5E">
+<Attribute name="Global Name" id="E7629B15-D2FE-5F23-1F6B-0A7ECD946D5E">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>1761AFE6-202E-CDA5-2814-DDD93D9CA7EF</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -112,9 +100,10 @@
 <dataTypeSize>240 BYTE</dataTypeSize>
 <ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOCAL NAME" id="EB44DA82-0A54-2E5C-2517-6369424F307F">
+<Attribute name="Local Name" id="EB44DA82-0A54-2E5C-2517-6369424F307F">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>50627069-2BDF-5F44-792D-3CBE60B1E70E</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -127,7 +116,7 @@
 <dataTypeSize>240 BYTE</dataTypeSize>
 <ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="KNOWN AS" id="A00B587F-3D6D-A6AD-E46F-C05D9FC30DF4">
+<Attribute name="Known as" id="A00B587F-3D6D-A6AD-E46F-C05D9FC30DF4">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>8A17A576-50E6-68BD-36F4-1EBEA68C7E5E</generatorID>
@@ -142,7 +131,7 @@
 <dataTypeSize>80 BYTE</dataTypeSize>
 <ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMAIL ADDRESS" id="76F5BFE0-9B47-D597-D4C6-2EAB19C6760D">
+<Attribute name="e-Mail address" id="76F5BFE0-9B47-D597-D4C6-2EAB19C6760D">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>361899FC-870F-D2B8-9DFF-7C7E0BFEBAE4</generatorID>
@@ -157,7 +146,7 @@
 <dataTypeSize>240 BYTE</dataTypeSize>
 <ownDataTypeParameters>240 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DATE OF BIRTH" id="B55506D4-6FCC-A9D2-984B-8901A75E6254">
+<Attribute name="Date of Birth" id="B55506D4-6FCC-A9D2-984B-8901A75E6254">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>48740491-032B-B326-C37D-3C0B421F5957</generatorID>
@@ -171,7 +160,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TOWN OF BIRTH" id="9E7DECFA-9484-A7E8-98D7-21FE97A8E201">
+<Attribute name="Town of Birth" id="9E7DECFA-9484-A7E8-98D7-21FE97A8E201">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>AB4ABBE6-0558-BF79-C041-FC39320AAAC9</generatorID>
@@ -186,7 +175,7 @@
 <dataTypeSize>90 BYTE</dataTypeSize>
 <ownDataTypeParameters>90 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="REGION OF BIRTH" id="879B642F-86F0-6AAD-7F36-2EB11C5EE87A">
+<Attribute name="Region of Birth" id="879B642F-86F0-6AAD-7F36-2EB11C5EE87A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>3F8342E2-B860-D0B1-340E-E0121CD7849B</generatorID>
@@ -201,7 +190,7 @@
 <dataTypeSize>90 BYTE</dataTypeSize>
 <ownDataTypeParameters>90 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COUNTRY OF BIRTH" id="1C55C842-B866-1064-89EB-33A669A64AB0">
+<Attribute name="Country of Birth" id="1C55C842-B866-1064-89EB-33A669A64AB0">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>FA5547D9-D35C-928C-B0C5-6A84EB7767DE</generatorID>
@@ -216,7 +205,7 @@
 <dataTypeSize>90 BYTE</dataTypeSize>
 <ownDataTypeParameters>90 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DATE OF DEATH" id="10511F60-B03F-7B21-79C6-3D4E1002C313">
+<Attribute name="Date of Death" id="10511F60-B03F-7B21-79C6-3D4E1002C313">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>B034D71B-FE89-B7D7-4D55-92D12134679D</generatorID>
@@ -230,7 +219,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NATIONALITY" id="229D7E77-AA6B-8B3E-FCBB-B9139F5DE941">
+<Attribute name="Nationality" id="229D7E77-AA6B-8B3E-FCBB-B9139F5DE941">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>47FD2B6E-F447-2F4D-DCC8-094050AE9B99</generatorID>
@@ -245,7 +234,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NATIONAL IDENTIFIER" id="6396922E-63C3-1C1C-1C8A-1F9BFA1F19CB">
+<Attribute name="National Identifier" id="6396922E-63C3-1C1C-1C8A-1F9BFA1F19CB">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>1E4020DF-7094-4C0E-CF1E-6B8D61259667</generatorID>
@@ -260,7 +249,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MARITAL STATUS" id="45A602AC-E310-FE53-3B05-98AC2383DD0A">
+<Attribute name="Marital Status" id="45A602AC-E310-FE53-3B05-98AC2383DD0A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>8BB8600F-BD8F-716A-945E-86A140A4F9A0</generatorID>
@@ -275,7 +264,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RELIGION" id="B707843E-3E97-6BD3-3C26-82F8FF0A660A">
+<Attribute name="Religion" id="B707843E-3E97-6BD3-3C26-82F8FF0A660A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>3710FB3C-209F-2A83-9D33-DC38D156A9D2</generatorID>
@@ -290,7 +279,7 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OTHER RELIGION" id="05F27604-9B52-796A-E3D4-EA69A99CD009">
+<Attribute name="Other Religion" id="05F27604-9B52-796A-E3D4-EA69A99CD009">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>3AFDDA91-67B9-F2E7-1148-114EA4AC96B0</generatorID>
@@ -305,7 +294,7 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SUFFIX" id="BF518F3A-1593-A9BE-3135-F46E7DFF5363">
+<Attribute name="Suffix" id="BF518F3A-1593-A9BE-3135-F46E7DFF5363">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>60BC5C83-3BD5-5180-F996-9853FF2F5C3E</generatorID>
@@ -320,7 +309,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="APPLICANT NUMBER" id="8461E804-0ED3-925D-132F-4366415B4731">
+<Attribute name="Applicant Number" id="8461E804-0ED3-925D-132F-4366415B4731">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>D0BA3BA4-D83C-FB95-E597-FAF5B40356CC</generatorID>
@@ -350,7 +339,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ORIGINAL DATE OF HIRE" id="0D7D3C9B-E03E-14C2-A975-3E23F8A7B42F">
+<Attribute name="Original Date of Hire" id="0D7D3C9B-E03E-14C2-A975-3E23F8A7B42F">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>5E5DF1E2-2F6D-8322-AEEE-6A66432CC514</generatorID>
@@ -364,7 +353,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="START DATE" id="D9842D20-C20C-CFDB-5B9C-11A3E9D8487D">
+<Attribute name="Start Date" id="D9842D20-C20C-CFDB-5B9C-11A3E9D8487D">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>DBDEC7F3-4814-346D-36CC-33A36465070F</generatorID>
@@ -377,7 +366,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="EMPLOYEE NUMBER" id="34DA5B61-94A9-353E-F489-F54B39C45E62">
+<Attribute name="Employee Number" id="34DA5B61-94A9-353E-F489-F54B39C45E62">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>31D9D131-6BC2-BA36-A19E-C2CFCBCB83EE</generatorID>
@@ -392,7 +381,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USERID" id="3458E98C-4AD1-6160-D274-391C761FC073">
+<Attribute name="User ID" id="3458E98C-4AD1-6160-D274-391C761FC073">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>AE0F2C40-BE8E-787E-6906-F57C812D1A93</generatorID>
@@ -407,7 +396,7 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CURRENT APPLICANT FLAG" id="9BEA8799-3A08-3B94-5C33-546D32F137A6">
+<Attribute name="Current Application Flag" id="9BEA8799-3A08-3B94-5C33-546D32F137A6">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>8CB59576-F460-D651-1928-108FE6D5A85E</generatorID>
@@ -422,7 +411,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CURRENT EMP OR APL FLAG" id="46F2D04F-CE81-BBE1-56BD-FCD7530219DB">
+<Attribute name="Current EMP or APL Flag" id="46F2D04F-CE81-BBE1-56BD-FCD7530219DB">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>7D5F412B-95E6-5BEC-BAAF-397645F36D34</generatorID>
@@ -437,7 +426,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CURRENT EMPLOYEE FLAG" id="2F974274-4E17-E671-3D32-8B832703135F">
+<Attribute name="Current Employee Flag" id="2F974274-4E17-E671-3D32-8B832703135F">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>FA071827-B6BC-E2AD-851F-600C6D4F2597</generatorID>
@@ -452,7 +441,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="INTERNAL LOCATION" id="98649564-E00F-A034-A291-21D3FB5D9688">
+<Attribute name="Internal Location" id="98649564-E00F-A034-A291-21D3FB5D9688">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>346790F6-338B-919D-14C0-8D7609DD977F</generatorID>
@@ -467,7 +456,7 @@
 <dataTypeSize>45 BYTE</dataTypeSize>
 <ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MAILSTOP" id="54F96DF3-A2D4-DBB1-B16A-DCDE9784BD76">
+<Attribute name="Mail Stop" id="54F96DF3-A2D4-DBB1-B16A-DCDE9784BD76">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>164BA43F-7E1B-8213-06E4-E6D2D0CDA6FE</generatorID>
@@ -482,7 +471,7 @@
 <dataTypeSize>45 BYTE</dataTypeSize>
 <ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ON MILITARY SERVICE" id="EF934D3F-39D4-A195-9033-B400DCC9A3BD">
+<Attribute name="On Military Service" id="EF934D3F-39D4-A195-9033-B400DCC9A3BD">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>7EC73F7E-BF41-86D6-BDB4-5A6AB1A927D4</generatorID>
@@ -502,7 +491,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RESUME EXISTS" id="6BA9E2AC-75EB-AC8F-1CE4-BFAAE2B01FFB">
+<Attribute name="Resume Exists" id="6BA9E2AC-75EB-AC8F-1CE4-BFAAE2B01FFB">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>00995409-101A-B8A3-6EE9-DFE1B9DAB045</generatorID>
@@ -522,7 +511,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SECOND PASSPORT EXISTS" id="0C3AAD0C-36EA-1A39-D216-599578A96AAE">
+<Attribute name="Second Passport Exists" id="0C3AAD0C-36EA-1A39-D216-599578A96AAE">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>49823AC2-7536-2C83-6A0F-96CDDAF09FAF</generatorID>
@@ -542,7 +531,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COORD BEN NO CVG FLAG" id="60A3AC13-ED5C-D679-E897-CFE1BE7B45D9">
+<Attribute name="Coord BEN NO CVG Flag" id="60A3AC13-ED5C-D679-E897-CFE1BE7B45D9">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>FA7F1953-82BA-5965-9E60-2054FB8EF21A</generatorID>
@@ -562,7 +551,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DPDNT VLNTRY SVCE FLAG" id="52502376-ED7E-F867-2EBA-BD63468F781A">
+<Attribute name="Dpdnt Voluntary Service Flag" id="52502376-ED7E-F867-2EBA-BD63468F781A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>82B25BD5-221F-7930-C20D-064E162B1EA6</generatorID>
@@ -582,7 +571,7 @@
 </listOfValues>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NPW NUMBER" id="378285F5-ABB7-48F3-DE5B-35D4B4DA2EC7">
+<Attribute name="NPW Number" id="378285F5-ABB7-48F3-DE5B-35D4B4DA2EC7">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
 <generatorID>03A13317-4949-4052-120E-6178AFFF2633</generatorID>
@@ -597,23 +586,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COMMENT ID" id="B9873844-E3AA-FA55-5280-39BB2F3E8876">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-12 14:21:00 UTC</createdTime>
-<comment><![CDATA[Field seems obsolete as limited rows (1302) in HR_COMMENTS which were last inserted/ updated in 2010 with same value for all comments.]]></comment>
-<generatorID>636CE703-9D19-6EF7-759C-3AA17A480702</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="OFFICE NUMBER" id="59B91E17-C5B1-FA56-DD70-CCDCCB8B3FB4">
+<Attribute name="Office Number" id="59B91E17-C5B1-FA56-DD70-CCDCCB8B3FB4">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>0A3658DF-6D51-89EC-3874-A2C9EF190436</generatorID>
@@ -628,7 +601,7 @@
 <dataTypeSize>45 BYTE</dataTypeSize>
 <ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CURRENT NPW FLAG" id="28A1359A-11FE-D949-1D92-4BAF3C8699AB">
+<Attribute name="Current NPW Flag" id="28A1359A-11FE-D949-1D92-4BAF3C8699AB">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>FC69E863-9460-F402-300E-D8C27A105A5C</generatorID>
@@ -643,22 +616,7 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PARTY ID" id="70B7A2E1-E418-CD71-971E-66F44162B843">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>8EDED2B0-2E64-EB7B-CA16-4A37D315A18A</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATTRIBUTE2" id="395ABB77-0C0F-48D9-3D6D-941A104EBB04">
+<Attribute name="Attribute(s)" id="395ABB77-0C0F-48D9-3D6D-941A104EBB04">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-12 14:21:00 UTC</createdTime>
 <generatorID>78452960-322B-FA53-F16B-ACDF29B803A8</generatorID>
@@ -673,54 +631,10 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ATTRIBUTE6" id="C46DA324-BA26-8B1B-4BA4-6A683DA4F205">
+<Attribute name="PER Information Category" id="62CBD1BD-B907-21B0-D1E0-CB258C9980FA">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>73BE2821-65F1-7060-379C-2EA77EEDDD96</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 BYTE</dataTypeSize>
-<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATTRIBUTE12" id="CFB5B393-EA48-52D0-A43E-606ECAABDAAB">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-06-12 14:21:00 UTC</createdTime>
-<generatorID>247C711C-0DA7-C81F-148A-DDF2DAF5292C</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 BYTE</dataTypeSize>
-<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ATTRIBUTE13" id="F58860A7-EA34-D57B-6690-396C42DE0DEF">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>35FE2C03-0F60-5ED6-6FCC-E26C0B4A24A1</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 BYTE</dataTypeSize>
-<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PER INFORMATION CATEGORY" id="62CBD1BD-B907-21B0-D1E0-CB258C9980FA">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>67B4FE24-E93F-4A55-1D64-53D54CE33F39</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -733,9 +647,10 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PER INFORMATION Flex Fields (1-10)" id="75F0A80F-9418-01A7-82D3-74589406901B">
+<Attribute name="PER Information Flex Fields (1-10)" id="75F0A80F-9418-01A7-82D3-74589406901B">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>7F3BCA27-FA6D-1347-F52A-A527993E3830</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -748,9 +663,10 @@
 <dataTypeSize>150 BYTE</dataTypeSize>
 <ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPTIVE FLEXFIELDS" id="FDB7CF86-54D4-3887-8FBF-14AC0CDD1363">
+<Attribute name="Descriptive Flex Fields" id="FDB7CF86-54D4-3887-8FBF-14AC0CDD1363">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-23 20:51:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
@@ -762,9 +678,10 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="AUDIT FIELDS" id="5C81BAC1-CD11-D881-09DC-1B559A98928D">
+<Attribute name="Audit Fields" id="5C81BAC1-CD11-D881-09DC-1B559A98928D">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-05-23 14:50:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Not convinced this is needed in the Logical Model]]></commentInRDBMS>
 <generatorID>52256D05-B3AE-5587-673A-49C2BCBFDCBE</generatorID>
 <ownerDesignName>BORIS-HR</ownerDesignName>
 <engineerTo>
@@ -778,19 +695,4 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8BC15727-0FD7-5C24-4E08-0D5E2456A540" name="PER PEOPLE F PK">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>9481BFA4-57DF-4882-C623-DBC1CAAFCD94</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>3A213362-C1E4-9832-81E6-871F9A68453B</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
