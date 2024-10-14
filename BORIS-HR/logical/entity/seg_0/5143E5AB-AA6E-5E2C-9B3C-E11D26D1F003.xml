@@ -16,20 +16,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CONTACT RELATIONSHIP ID" id="AB861705-4FC6-748C-422A-6CBE2EA1D685">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>9798AA61-F4AA-B4C9-4AF4-0773253FACEC</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<ownDataTypeParameters>,15,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="PERSON ID" id="A654BB3B-57B7-69B8-6F6C-D16B06D5CA8A">
 <createdBy>vs52761</createdBy>
 <createdTime>2024-06-07 14:22:08 UTC</createdTime>
@@ -43,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CONTACT PERSON ID" id="7344C41A-0D01-D6AC-9748-2789F296C7AC">
 <createdBy>vs52761</createdBy>
@@ -58,7 +44,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CONTACT TYPE" id="F1FE51FC-1A3E-109A-C8F9-0ED44380618B">
 <createdBy>vs52761</createdBy>
@@ -78,6 +64,7 @@
 <engineerTo>
 <item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -111,8 +98,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DATE END" id="0BDD9C65-FAE4-E83A-C478-720AC9AE5965">
 <createdBy>vs52761</createdBy>
@@ -126,8 +112,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RLTD PER RSDS W DSGNTR FLAG" id="9D882CC1-DDF6-B599-B077-11AD475D8807">
 <createdBy>vs52761</createdBy>
@@ -232,8 +217,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DESCRIPTIVE FLEXFIELDS" id="C9FBC406-3A47-5CF0-0754-5D7B2A62FC0A">
 <createdBy>vs52761</createdBy>
@@ -266,19 +250,4 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FB158DFB-2CC9-477D-C99D-04045E59EFF2" name="PER CONTACT RELATIONSHIPS PK">
-<createdBy>vs52761</createdBy>
-<createdTime>2024-05-23 14:50:27 UTC</createdTime>
-<generatorID>27F573C0-5E47-2C43-6F59-B4C8D11FC44E</generatorID>
-<ownerDesignName>BORIS-HR</ownerDesignName>
-<engineerTo>
-<item key="4749B739-7F2A-A3D3-5F7D-25EC398D7AC9" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>AB861705-4FC6-748C-422A-6CBE2EA1D685</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
